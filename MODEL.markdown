@@ -1025,7 +1025,9 @@ Data points used to in the Income analysis:
   Payout ratio                              |  Last reported
   Estimate of Dividend per Share (+3 years) |  Annual, from analyst consensus estimates
   Estimate of Earnings per Share (+3 years) |  Annual, from analyst consensus estimates
-
+  
+  Note: For an [American Depository Receipt (ADR)](https://en.wikipedia.org/wiki/American_depositary_receipt) or equivalent the dividend yeild is derived from the the primary listing of the stock, not the ADR. 
+  
 ##### CHECK \#1: Is the current dividend yield higher than the cash savings rate?
 
 If the Dividend Yield is \> the cash savings rate (for the relevant
