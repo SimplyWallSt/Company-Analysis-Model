@@ -74,6 +74,10 @@ order to allow:
 
 -   consolidated view using our "portfolio" feature.
 
+####Example Snowflake
+![Example Snowflake Tile](https://simplywall.st/build/images/landing/NYSE-WALT250.PNG "Example Snowflake Tile" )
+
+####Methodology behind generating the Snowflake  
 The snowflake is constructed as follows:
 
 1.  for each assessment criteria, there are 6 individual checks
@@ -134,6 +138,14 @@ The sensitivity of the axis:
   Past performance      |  The historical financial performance of the company
   Health                |  The financial strength of the company's balance Sheet
   Income (ie dividends) |  The dividend being paid, and the sustainability of the dividend
+
+###Summary of the Snowflake
+
+The graphic below summarises the checks used to generate the Snowflake. The remainder of this document explains each in detail and the analysis used in the Management screen.
+
+A PDF of this graphic is available [here](https://simplywall.st/documents/Simply-Wall-St-The-Snowflake-explained.pdf).
+
+![Snowflake Summary](https://simplywall.st/documents/Simply-Wall-St-The-Snowflake-explained-700.png "Snowflake Summary" )
 
 **Value**
 ---------
