@@ -288,6 +288,8 @@ same industry and then levered to account for any debt. The bottom up
 Beta cannot be lower than 0.8 (lowest practical Beta for stable firm -
 per Damodaran).
 
+The Levered is used in the case of financial firms, but it is not adjusted for financial leverage like with non-finance firms. Therefore the average levered beta from comparable firms is used as the bottom-up beta.
+
 #### Example calculation
 
 Below is an example calculation for [Walt Disney
