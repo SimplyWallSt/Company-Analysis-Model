@@ -1077,7 +1077,7 @@ affordable by the company.
 
     Payout ratio = Dividends per share / Earnings per share
 
-If the payout ratio is greater than 0% and less than 100% the stock is
+If the payout ratio is greater than 0% and less than 90% the stock is
 scored one point.
 
 ##### CHECK \#6: Are future expected dividends paid well covered by Net Profit (or Net Income)?
@@ -1087,7 +1087,7 @@ is estimated. This is done using consensus analyst estimates for
 Dividend per share payments and Earnings per share.
 
 If the estimated payout ratio in 3 years is greater than 0% and less
-than 100% the stock is scored one point.
+than 90% the stock is scored one point.
 
 **Management**
 --------------
