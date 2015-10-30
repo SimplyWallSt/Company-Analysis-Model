@@ -414,7 +414,7 @@ following data points:
 
   **Data point**                          |**Notes**
   --------------------------------------- |--------------------------------------------------------------------------------
-  Normalized diluted Earnings per Share   |(Annual, last reported),converted to the currency of the listing if different.
+  GAAP Earnings per Share   |(Annual, last reported),converted to the currency of the listing if different.
   Share price                             |End of day in the currency of the listing
 
 ##### CHECK \#3: Is the PE ratio less than the market average but still greater than 0? 
@@ -544,8 +544,8 @@ Data used to perform this check:
 
   **Data point**                                                      | **Notes**
   --------------------------------------------------------------------| ----------------------------------------------------------------------------------------------------------------------
-  Historical Normalized Diluted Earnings per Share (LTM to -5 years)  | Annual period but quarterly results are presented in the infographic
-  Estimated Normalized Diluted Earnings per Share (+1 to +3 years)    | Annual based on consensus analyst estimates
+  Historical GAAP Earnings per Share (LTM to -5 years)  | Annual period but quarterly results are presented in the infographic
+  Estimated GAAP Earnings per Share (+1 to +3 years)    | Annual based on consensus analyst estimates
   Growth rate %                                                       | This is interpolated if the last reported quarter differs from the quarter of consensus estimates
   Low risk savings rate                                               | Based on the readily available consumer savings account interest rate, varies depending on the region of the listing
   Inflation (CPI)                                                     | The CPI of the region of the listing is used
@@ -710,7 +710,7 @@ Data points used in the Earnings per Share checks:
 
   **Data point**                                                      | **Notes**
   --------------------------------------------------------------------| -----------------------------------------
-  Historical Normalized diluted Earnings per Share (LTM to -5 years)  | Annual, last reported quarterly results
+  Historical GAAP Earnings per Share (LTM to -5 years)  | Annual, last reported quarterly results
 
 #### How is the 5 year annual average calculated?
 
@@ -1038,7 +1038,7 @@ Data points used to in the Income analysis:
   Dividend per share (LTM to -5 years)      |  Annual, last reported
   Payout ratio                              |  Last reported
   Estimate of Dividend per Share (+3 years) |  Annual, from analyst consensus estimates
-  Estimate of Earnings per Share (+3 years) |  Annual, from analyst consensus estimates
+  Estimate of GAAP Earnings per Share (+3 years) |  Annual, from analyst consensus estimates
   
   Note: For an [American Depository Receipt (ADR)](https://en.wikipedia.org/wiki/American_depositary_receipt) or equivalent the dividend yeild is derived from the the primary listing of the stock, not the ADR. 
   
@@ -1117,7 +1117,7 @@ The following data is used in the SWS management analysis:
   **Data point**                                           | **Notes**
   ---------------------------------------------------------| ----------------------------------------------------------------------------
   Historical CEO total compensation (LTM to -5 years)     |  Annual, last reported
-  Normalized diluted Earnings per Share (LTM to -5 years) |  Annual, last reported
+  GAAP Earnings per Share (LTM to -5 years) |  Annual, last reported
   Management team average tenure                          |  Calculated by averaging the tenure of the top 10 ranked ‘Professionals’
   Board of directors average tenure                       |  Calculated by averaging the tenure of the top 10 ranked Board of directors
   Number of shares sold by insiders                       |  Last reported, includes options exercised
