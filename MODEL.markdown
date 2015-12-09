@@ -1168,7 +1168,17 @@ is flagged.
 ##### CHECK \#5: Are company "insiders" net buyers or sellers of the company's shares?
 
 If company "insider" share sales is greater than the number of share
-purchases this check is flagged.
+purchases this check is flagged. Insider trading activity is defined as a transaction from an internal stakeholder with an interest in the companies’ stock performance. Insiders can be individuals or corporates.
+
+##### What transactions are included in this check?
+The following transactions are included in the Insider Trading check:
+* Open Market Acquisition (Buy)
+* Open Market Disposition (Sell)
+* Private Acquisition (Buy)
+* Private Disposition (Sell)
+* Other Acquisition (Buy)
+* Other Disposition (Sell)
+
 
 Industry Averages
 -----------------
