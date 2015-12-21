@@ -1175,7 +1175,7 @@ The following transactions are included in the Insider Trading check:
 * Open Market Acquisition (Buy)
 * Open Market Disposition (Sell)
 
-Equivilent to transaction type P/S on an SEC [Form 4](https://www.sec.gov/about/forms/form4data.pdf) filing.
+Equivalent to transaction type P/S on an SEC [Form 4](https://www.sec.gov/about/forms/form4data.pdf) filing.
 
 Industry Averages
 -----------------
