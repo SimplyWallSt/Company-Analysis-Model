@@ -456,7 +456,7 @@ diversity and differing nature of companies across the market.
 
 The Price to Earnings Growth (PEG) Ratio is calculated as;
 
-    PEG ratio = PE ratio / Rate of Earnings growth (%)
+    PEG ratio = PE ratio / Expected earnings growth next year (%)
 
 The PEG ratio depends greatly on the PE ratio and growth rate used, SWS
 uses:
@@ -464,7 +464,9 @@ uses:
   **Data point**                                | **Notes**
   ----------------------------------------------| ----------------------------------------
   PE Ratio                                      | As above
-  Expected annual growth rate in EPS next year  | Based on consensus analysts’ estimates
+  Expected annual growth rate in EPS next year  | Based on consensus analysts’ estimates next year (same as the 1 year EPS growth rate used in [Future Performance analysis](#minimum-earnings-growth)
+
+Note: Other websites may quote different PEG ratios, this is due to using out of date EPS growth rates or using a growth rate based on historical data.
 
 ##### CHECK \#5: Is the PEG ratio within a reasonable range (0 to 1)?
 
