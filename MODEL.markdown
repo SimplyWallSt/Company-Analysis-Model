@@ -20,7 +20,7 @@
 Overview of the model
 ---------------------
 
-The Simply Wall Street (SWS) app is designed to help make you a better
+The [Simply Wall Street](https://simplywall.st/) (SWS) app is designed to help make you a better
 investor by allowing you to make non-emotional long term investment
 decisions.
 
