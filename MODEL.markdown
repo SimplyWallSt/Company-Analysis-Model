@@ -371,7 +371,7 @@ stock on SWS by clicking ‘Learn more’ or by clicking the infographic.
 
 The SWS performs 6 checks regarding "value".
 
-#### Discounted Cash Flow
+#### Discount to Intrinsic Value (DCF)
 
 ##### CHECK \#1: Is the discounted cash flow value less than 20% of the share price? 
 
@@ -1136,17 +1136,17 @@ in 2014.
 
 (From the Fool.com)
 
-In 2013, the average S&P 500 CEO earned \$10.5 million, a new record.
-Total profits of S&P 500 companies were about \$1 trillion, or \$2
+In 2013, the average S&P 500 CEO earned $10.5 million, a new record.
+Total profits of S&P 500 companies were about $1 trillion, or $2
 billion on average, meaning the average CEO's compensation was about
 0.5% of the company's profit, or 0.03% of market cap, which is about
-\$35 billion on average. Since executive pay seems like it should be
+$35 billion on average. Since executive pay seems like it should be
 tied to company profits and market value, perhaps we should use that as
 a starting point.
 
 Therefore this check is flagged if the following occurs:
 
-    CEO Comp > (0.5% \* Net Income + 0.03% \* Market Cap)
+    CEO Comp > (0.5% * Net Income + 0.03% * Market Cap)
 
 ##### CHECK \#2: Has the CEO's compensation increased more than 20% whilst the EPS is down more than 20%?
 
