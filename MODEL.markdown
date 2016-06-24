@@ -1036,8 +1036,8 @@ Data points used to in the Income analysis:
 
   **Data point**                             | **Notes**
   -------------------------------------------| ------------------------------------------
-  Dividend yield (End of day to -5 years)   |  Annual
-  Dividend per share (LTM to -5 years)      |  Annual, last reported
+  Dividend yield (End of day to -10 years)   |  Annual
+  Dividend per share (LTM to -10 years)      |  Annual, last reported
   Payout ratio                              |  Last reported
   Estimate of Dividend per Share (+3 years) |  Annual, from analyst consensus estimates
   Estimate of GAAP Earnings per Share (+3 years) |  Annual, from analyst consensus estimates
@@ -1054,23 +1054,23 @@ geography) the stock is scored one point.
 If the Dividend Yield is within the top 25% of dividend paying stocks
 (for the relevant geography) the stock is scored one point.
 
-##### CHECK \#3: Has the dividend been volatile in the past 5 years?
+##### CHECK \#3: Has the dividend been volatile in the past 10 years?
 
 To check for volatility SWS looks at the historical dividend per share
-payments, if at any point in the last 5 years a drop of greater than 25%
+payments, if at any point in the last 10 years a drop of greater than 10%
 has occurred the dividend is considered volatile. Note this check is
 based on the per share dividend amounts paid, not the yield.
 
 One point is scored if there have been no annual drops in DPS of more
-than 25% in the past 5 years.
+than 10% in the past 10 years. This check also fails by default if the stock has been paying a dividend for less than 10 years.
 
-##### CHECK \#4: Has the dividend increased in the past 5 years?
+##### CHECK \#4: Has the dividend increased in the past 10 years?
 
 The current annualised dividend amount paid is compared to the
-annualised dividend amount paid 5 years ago.
+annualised dividend amount paid 10 years ago. This check also fails by default if the stock has been paying a dividend for less than 10 years.
 
 If the current annualised dividend amount is \> the annual dividend
-amount 5 years ago the stock is scored one point.
+amount 10 years ago the stock is scored one point.
 
 ##### CHECK \#5: Are dividends paid well covered by Net Profit (or Net Income)?
 
