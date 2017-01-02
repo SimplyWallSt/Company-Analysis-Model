@@ -14,7 +14,7 @@
 * [Future Performance analysis](#future-performance)
 * [Past Performance analysis](#past-performance)
 * [Financial Health analysis](#health)
-* [Income (dividends) analysis](#income-dividends)
+* [Dividends analysis](#income-dividends)
 * [Management analysis](#management)
 
 Overview of the model
@@ -50,8 +50,8 @@ Our checks are divided into 5 assessment criteria:
   Value                  | The fair value of the company's shares, and how that value compares with the current share price, other companies and the stockmarket
   Future performance     | Anticipated future financial performance based on analyst forecasts
   Past performance       | The historical financial performance of the company
-  Health                 | The financial strength of the company's balance Sheet
-  Income (ie dividends)  | The dividend being paid, and the sustainability of the dividend
+  Health                 | The financial strength of the company's balance sheet
+  Dividends (ex Income)  | The dividend being paid, and the sustainability of the dividend
 
 The assessment criteria and individual checks performed are explained in
 this document.
