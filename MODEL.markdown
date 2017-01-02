@@ -109,7 +109,7 @@ criteria should not necessarily exclude a stock from investment
 consideration. The snowflake simply summarises visually relevant
 characteristics of a stock.
 
-For example, a low "income" score simply indicates that from an income
+For example, a low "Dividends" score simply indicates that from an Dividend
 point of view, the company may be paying a low dividend, however it may
 also be experiencing high growth and reinvesting cash in growth
 initiatives. In this example, investors seeking high growth
@@ -134,10 +134,10 @@ The sensitivity of the axis:
   Area                   | Main sensitivity
   -----------------------| ------------------------------------------------------------------------------------------------------------------------------------
   Value                 |  Sensitive to changes share price however the change must be significant to breach the various thresholds detailed in this document
-  Future performance    |  Anticipated future financial performance based on analyst forecasts
-  Past performance      |  The historical financial performance of the company
-  Health                |  The financial strength of the company's balance Sheet
-  Income (ie dividends) |  The dividend being paid, and the sustainability of the dividend
+  Future performance    |  Expected growth rates of earnings per share, revenue, cash flow and net income
+  Past performance      |  Historical earnings per share performance
+  Health                |  Balance sheet and ability to service debt
+  Dividends		|  The reliability and sustainability of the dividend
 
 ###Summary of the Snowflake
 
