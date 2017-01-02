@@ -51,7 +51,7 @@ Our checks are divided into 5 assessment criteria:
   Future performance     | Anticipated future financial performance based on analyst forecasts
   Past performance       | The historical financial performance of the company
   Health                 | The financial strength of the company's balance sheet
-  Dividends (ex Income)  | The dividend being paid, and the sustainability of the dividend
+  Dividends		 | The dividend being paid, and the sustainability of the dividend
 
 The assessment criteria and individual checks performed are explained in
 this document.
