@@ -1,6 +1,4 @@
- ![alt text][logo]
-[logo]: https://simplywall.st/images/simplywallst384.png "Simply Wall St Logo"
-
+![Simply Wall St Logo](https://simplywall.st/images/simplywallst384.png "Simply Wall St Logo")
  
  Simply Wall St Company Analysis Model
 ======================================
@@ -74,10 +72,10 @@ order to allow:
 
 -   consolidated view using our "portfolio" feature.
 
-####Example Snowflake
+#### Example Snowflake
 ![Example Snowflake Tile](https://simplywall.st/build/images/landing/NYSE-WALT250.PNG "Example Snowflake Tile" )
 
-####Methodology behind generating the Snowflake  
+#### Methodology behind generating the Snowflake  
 The snowflake is constructed as follows:
 
 1.  for each assessment criteria, there are 6 individual checks
@@ -139,7 +137,7 @@ The sensitivity of the axis:
   Health                |  Balance sheet and ability to service debt
   Dividends		|  The reliability and sustainability of the dividend
 
-###Summary of the Snowflake
+### Summary of the Snowflake
 
 The graphic below summarises the checks used to generate the Snowflake. The remainder of this document explains each in detail and the analysis used in the Management screen.
 
