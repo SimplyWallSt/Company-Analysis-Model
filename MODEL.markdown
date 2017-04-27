@@ -872,7 +872,7 @@ The Debt to Equity ratio measures a company's total debt relative to its
 total shareholders equity (ie net worth or shareholders funds). This
 ratio measures the amount of gearing or leverage that a company holds.
 If the ratio is high, this indicates that the company is holding a high
-level of debt / liabilities compared to its net worth, and in the event
+level of debt compared to its net worth, and in the event
 of financial stress may experience difficulty meeting debt or interest
 obligations.
 
@@ -880,7 +880,7 @@ A ratio of 40% or less is considered acceptable.
 
 The Debt to Equity ratio is calculated as;
 
-    Debt to Equity ratio = Total Liabilities / Shareholders Equity
+    Debt to Equity ratio = Total Debt / Total Common Shareholders Equity
 
 ##### CHECK \#3: Has the debt to equity ratio increased in the past 5 years?
 
