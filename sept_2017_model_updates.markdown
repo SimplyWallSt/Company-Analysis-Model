@@ -57,14 +57,11 @@ This model is the same as the 2-Stage Discounted Cash Flows Model, except for on
 
 **Funds from Operations (FFO)** is the company&#39;s earnings, with depreciation and amortization added back on, and removal of capital gains from property sales. AFFO has other adjustments the FFO number to make it even more accurate, by subtracting off capital expenditure and maintenance costs of the property, and adding rental increases. These factors are very specific to property and REITs, making it a far superior measure of value for these types of stocks.
 
-If AFFO estimates is unavailable, we fall back to using FFO. However, if both are unavailable, we use another REIT-specific measure called **Net Asset Value (NAV).**
-
-If no AFFO estimates are available we will fall back to FFO (not adjusted for xx), and if no estimates of FFO are available we use analyst estimates of Net Asset Value (NAV). NAV is basically the total market value of the REIT&#39;s investments and other assets, less its short-term and long-term liabilities – essentially, it&#39;s equity value! Below is the source of our inputs above:
+Below is the source of our inputs above:
 
 | Input | Source |
 | --- | --- |
 | Future AFFO | Weighted average of analyst consensus estimates, if less than 3 analysts have submitted estimates then FFO is used. If FFO has less than 3 analysts then NAV is used. |
-| NAV | Weighted average of all future analyst estimates, only used if at least 3 analysts cover the stock. |
 
 ## Key Change #2: Future Growth Rates and Checks
 
