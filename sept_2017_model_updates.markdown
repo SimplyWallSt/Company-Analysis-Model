@@ -61,7 +61,7 @@ Below is the source of our inputs above:
 
 | Input | Source |
 | --- | --- |
-| Future AFFO | Weighted average of analyst consensus estimates, if less than 3 analysts have submitted estimates then FFO is used. If FFO has less than 3 analysts then NAV is used. |
+| Future AFFO | Weighted average of analyst consensus estimates, if less than 3 analysts have submitted estimates then FFO is used.|
 
 ## Key Change #2: Future Growth Rates and Checks
 
