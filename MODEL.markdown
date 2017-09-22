@@ -152,7 +152,7 @@ While the stock market sets a &quot;price&quot; for a company, this price will o
 
 There are many methods which can be used to determine the fair value of a company. The SWS app uses two approaches: discounted cash flows and relative valuation.
 
-**Discounted Cash Flows (DCF)**
+### Discounted Cash Flows (DCF)
 
 DCF is the most widely-accepted method to calculate the fair value of a company. It is based on the premise that the fair value of a company is the total value of its incoming cash flow less its expenses, technically called Free Cash Flows (FCF), discounted to today&#39;s value.
 
@@ -165,13 +165,13 @@ The SWS app uses four variations of DCF depending on the characteristics of a pa
 
 ![Simply Wall St Discounted Cash Flow Model Selection Proces](https://simplywall.st/build/images/landing/sws_model_selection_process.png "Simply Wall St Discounted Cash Flow Model Selection Process")
 
-**2-Stage Free Cash Flow Model – How Is This Calculated?**
+#### 2-Stage Free Cash Flow Model – How Is This Calculated?
 
 Two calculations are performed: high-growth stage and stable-growth stage. In **high-growth** , estimates over the next five years of levered free cash flow to equity are used, which is sourced from market analyst consensus estimates. If no estimates are available, then the last estimate or reported value is extrapolated using historical average annual growth rate, capped within a reasonable range of 20% in the first year declining by 1% per year.
 
 In **stable-growth** , a terminal value is calculated using the Gordon Growth formula, with an assumption that the company will continue to grow its earnings at the 10-year government bond rate, forever. The sum of the cash flow arising from the forecasts are then discounted to today&#39;s value using a discount rate, then divided by shares on issue, giving a value per share.
 
-**Dividend Discount Model – How Is This Calculated?**
+#### Dividend Discount Model – How Is This Calculated?
 
 Since dividends are a form of cash flows which are directly returned to shareholders, it can be used to determine how much a share value is worth to a shareholder who will reap the benefit of these future **dividend payments**. The Gordon Growth model is used to discount a company&#39;s dividend payments over time, with the assumption that dividends will continue to grow at a certain rate forever.
 
@@ -179,7 +179,7 @@ Using the expected dividend per share, the value of a stock is found by:
 
     Value = Expected dividends per share / (Discount Rate - Perpetual growth rate)
 
-**Excess Returns Model**** – How Is This Calculated?**
+#### Excess Returns Model – How Is This Calculated?
 
 **Excess Returns** method is better suited to calculate the intrinsic value of financial companies than the traditional discounted cash flows model. The key assumption for this model is that equity value is how much the firm can earn, over and above its cost of equity, given the level of equity it has in the company at the moment. The returns above the cost of equity is known as excess returns:
 
@@ -197,7 +197,7 @@ Putting this all together, we get the value of the company:
 
 Note that the component Book Value of Equity (BVE) represents the equity capital that has been invested in the company plus retained earnings. For each year going forward, BVE is estimated in order to reflect the growing nature of the company.
 
-**Adjusted Funds from Operations Discounted Cash Flows Model – How Is This Calculated?**
+#### Adjusted Funds from Operations Discounted Cash Flows Model – How Is This Calculated?
 
 This model is the same as the 2-Stage Discounted Cash Flows Model, except for one key difference – instead of discounting the company&#39;s free cash flows, we use its **Adjusted Funds from Operations (AFFO)** instead. AFFO better reflects the operational cash flows of REITs as opposed to the commonly used free cash flows.
 
@@ -205,7 +205,7 @@ This model is the same as the 2-Stage Discounted Cash Flows Model, except for on
 
 If AFFO estimates is unavailable, we fall back to using FFO. However, if both are unavailable, we use another REIT-specific measure called **Net Asset Value (NAV).** NAV is basically the total market value of the REIT&#39;s investments and other assets, less its short-term and long-term liabilities – essentially, it&#39;s equity value!
 
-**How Is The Discount Rate Determined For All DCF Methods?**
+#### How Is The Discount Rate Determined For All DCF Methods?
 
 The discount rate is calculated based on the following equation:
 
@@ -217,7 +217,7 @@ A bottom-up beta is calculated for each company by using it&#39;s industry unlev
 
 Levered beta is used in the case of financial firms, and is not re-adjusted to account for varying capital structure. Therefore, the average levered beta of comparable companies is used as the bottom-up beta for financial firms.
 
-**What Are The Advantages And Disadvantages of The DCF Model?**
+#### What Are The Advantages And Disadvantages of The DCF Model?
 
 The advantages of DCF are:
 
@@ -232,7 +232,7 @@ The drawbacks of DCF are:
 - DCF is not applicable to companies which does not generate positive free cash flow (for example high-growth technology companies which are not yet profitable);
 - Estimating free cash flow for financial institutions can be difficult.
 
-**What Does A Typical DCF Calculation Look Like?**
+#### What Does A Typical DCF Calculation Look Like?
 
 Below is an example calculation for [Walt Disney
 (NYSE:DIS)](https://simplywall.st/NYSE:DIS/walt-disney#value) from 22/09/2015. Note the details of the calculation can be found for any stock on SWS by clicking **Learn More** or by clicking the valuation infographic.
@@ -322,7 +322,7 @@ Data points used in Dividend Discount Model
 - http://pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch13.pdf
 
 
-**Relative Valuation**
+### Relative Valuation
 
 Relative valuation is another method to calculate a company&#39;s fair value. The key difference between this method and discounted cash flows, is that we use the value of the company&#39;s industry peers as a benchmark for whether the company is over- or undervalued, rather than directly assessing the company&#39;s cash flows.
 
@@ -332,7 +332,7 @@ The SWS app calculates three types of relative valuation.
 - **Price-to-Earnings Growth (PEG) ratio:** suitable for profitable companies with projected growth in the bottom-line in the future.
 - **Price-to-Book (PB) ratio:** appropriate for companies with high levels of physical assets, or loss-making.
 
-**PE Ratio – How Is This Calculated?**
+#### PE Ratio – How Is This Calculated?
 
 The PE ratio is used to give an indication of the value of the share price as a function of the company&#39;s net income per share. As a market-based ratio, it provides a shorthand indication of the relative valuation of a company and allows a comparison of the valuation between companies, against an industry sector or the stock market as a whole.
 
@@ -347,7 +347,7 @@ The PE ratio is calculated as:
 | GAAP Earnings per Share | (Annual, last reported),converted to the currency of the listing if different. |
 | Share price | End of day in the currency of the listing |
 
-**PEG Ratio – How Is This Calculated?**
+#### PEG Ratio – How Is This Calculated?
 
 The PEG ratio is used to give an indication of the value of the share price as a function of the growth in a company&#39;s net income per share. Similar to PE, as a market-based method, it allows us to compare a company&#39;s growth and earnings level to its industry sector or the wider stock market.
 
@@ -364,7 +364,7 @@ The PEG ratio is calculated as:
 | PE Ratio | As above |
 | Annual net income growth rate | The same annual net income growth rate calculated in the  [Future Performance analysis](https://github.com/SimplyWallSt/Company-Analysis-Model/blob/master/MODEL.markdown#minimum-earnings-growth) |
 
-**PB Ratio – How Is This Calculated?**
+#### PB Ratio – How Is This Calculated?
 
 The PB ratio is used to give an indication of the value of the share price as a function of the &quot;book value&quot; of a company. The book value is calculated as assets less intangible assets less liabilities per share - in the other words the net tangible assets held by the company.
 
@@ -388,37 +388,37 @@ The PB ratio is calculated as:
 
 The SWS performs 6 checks regarding "value".
 
-**CHECK #1: Is the discounted cash flow value less than 20% of the share price?**
+##### CHECK #1: Is the discounted cash flow value less than 20% of the share price?
 
 The SWS app compares the fair value (ie the calculated DCF value) to the current share price.
 
 If the share price is =&gt; 20% below the fair value, it is considered to be moderately undervalued and is scored one point.
 
-**CHECK #2: Is the discounted cash flow value less than 40% of the share price?**
+##### CHECK #2: Is the discounted cash flow value less than 40% of the share price?
 
 The fair value of a stock, calculated using DCF model, is compared to its current market share price.
 
 If the share price is below the fair value by 40% or more, then it is considered substantially undervalued and is scored one point.
 
-**CHECK #3: Is the PE ratio less than the market average but still greater than 0?**
+##### CHECK #3: Is the PE ratio less than the market average but still greater than 0?
 
 The PE ratio is compared to the whole market PE ratio for the country of listing.
 
 If the PE ratio is less than the market average PE ratio, then the stock is scored one point.
 
-**CHECK #4: Is the PE ratio less than the industry average but still greater than 0?**
+##### CHECK #4: Is the PE ratio less than the industry average but still greater than 0?
 
 The PE ratio is compared to the industry average PE ratio for its industry classification.
 
 If the PE ratio is less than the industry average PE ratio, then the stock is scored one point.
 
-**CHECK #5: Is the PEG ratio within a reasonable range (0 to 1)?**
+##### CHECK #5: Is the PEG ratio within a reasonable range (0 to 1)?
 
 The PEG ratio is compared to the range of 0 to 1.
 
 If the PEG ratio falls within this range, then the stock is scored one point.
 
-**CHECK #6: Is the PB ratio within a reasonable range (0 to 1)?**
+##### CHECK #6: Is the PB ratio within a reasonable range (0 to 1)?
 
 The PB ratio is compared to the relevant industry average.
 
@@ -428,132 +428,25 @@ If the PB ratio is greater than zero, but below the industry average, then the s
 **Future Performance**
 ----------------------
 
-The SWS app does not attempt to predict future share prices. Rather the
-SWS app assesses future expectations of company performance by analysing
-professional analyst estimates of Revenue, Cash flow, Earnings (Net
-income) and Return on Equity. SWS looks for growth in these metrics.
-Historically it has been demonstrated that analyst estimates on average
-are accurate within an acceptable range.
+Future Performance
 
-### The SWS Snowflake checks regarding Future Performance
+The SWS app examines professional analyst estimates of company future expectations for revenue, cash flow, net income and return on equity, which in turn are used to calculate growth for the respective line items. Historically, it has been demonstrated that analyst estimates, on average, are relatively accurate over the short term.
 
-### Minimum Earnings Growth
+#### How does SWS calculate growth rates
 
-SWS undertakes two checks on estimated growth in Earnings per Share
-(EPS) over the next 1 and 3 years to determine whether it is expected to
-exceed minimum acceptable growth. The minimum acceptable growth is
-defined as the low risk savings rate plus a premium to keep pace with
-inflation. If these checks are not met it may be more rational to invest
-in a low risk savings product rather than the stock being reviewed
-(which carries a higher level of risk).
+Annual growth rates for each line item are calculated using weighted linear regression which plots a line of best-fit through the time series data point. The year with more analyst coverage has higher weighting, which means we place more importance on estimates with twenty analysts&#39; forecasts compared to ones with only a few. The first data point is taken from the most recent earnings release and given a weight of one.
 
-#### How is growth from negative earnings handled?
+The slope, or gradient, of this line is then divided by the average of the absolute values to compute the annual growth rate. Using absolute values allow us to calculate a growth rate even when a line item, such as earnings, is negative, or is expected to become positive.
 
-Calculating a growth rate when the earnings in the starting period are
-negative is difficult and sometimes meaningless, for this reason no
-‘growth’ ratio is used rather SWS informs the user this is the case and
-awards scores accordingly.
+#### Data points used to perform these checks
 
-Data used to perform this check:
-
-  **Data point**                                                      | **Notes**
-  --------------------------------------------------------------------| ----------------------------------------------------------------------------------------------------------------------
-  Historical GAAP Earnings per Share (LTM to -5 years)  | Annual period but quarterly results are presented in the infographic
-  Estimated GAAP Earnings per Share (+1 to +3 years)    | Annual based on consensus analyst estimates
-  Growth rate %                                                       | This is interpolated if the last reported quarter differs from the quarter of consensus estimates
-  Low risk savings rate                                               | Based on the readily available consumer savings account interest rate, varies depending on the region of the listing
-  Inflation (CPI)                                                     | The CPI of the region of the listing is used
-
-##### CHECK \#1: Is the growth in earnings expected to exceed the low risk savings rate, plus a premium to keep pace with inflation, in 1 year's time?
-
-This check measures whether the earnings growth of a stock at least
-matches the low risk savings rate plus a premium to keep pace with
-inflation. If not, it may be more rational to invest in a low risk
-savings product rather than the stock being reviewed (which carries a
-higher level of risk).
-
-The rate of growth in earnings (measured by the average analyst
-estimate) over one year is compared to the low risk savings rate +
-inflation over one year.
-
-If the rate of growth of earnings is \> the low risk savings rate the
-stock is scored one point.
-
-##### CHECK \#2: Is the growth in earnings expected to exceed the low risk savings rate, plus a premium to keep pace with inflation, in 3 year's time?
-
-This check measures whether the earnings growth of a stock at least
-matches the low risk savings rate *over the medium term*. This check
-measures earnings growth over 3 years (rather than one) and may be used
-to identify companies where, although short term growth may be low
-(possibly due to temporary or one off factors), growth over the medium
-term is acceptable.
-
-The rate of growth in earnings (measured by the average analyst
-estimate) over 3 years is compared to the low risk savings rate +
-inflation over 3 years.
-
-If the rate of growth of earnings is \> the low risk savings rate the
-stock is scored one point.
-
-### High growth potential
-
-The final 3 checks undertaken here look to identify companies with the
-potential for high growth over the next 2 years.
-
-Data used to perform this check:
-
-  **Data point**                         | **Notes**
-  ---------------------------------------| ---------------------------------------------
-  Estimated Revenue (+1 to +3 years)    |  Annual based on consensus analyst estimates
-  Estimated Cash flow (+1 to +3 years)  |  Annual based on consensus analyst estimates
-  Estimated Net Income (+1 to +3 years) |  Annual based on consensus analyst estimates
-  Current Revenue                       |  Annual, Last reported
-  Current Cash flow                     |  Annual, Last reported
-  Current Net income                    |  Annual, Last reported
-
-##### CHECK \#3: Does the average analyst expect Revenue to increase by 50% or more in 2 years?
-
-This check is used to identify whether on average analysts' expect
-strong revenue (ie "top line") growth over the short / medium term of 2
-years.
-
-Growth in top line Revenues is an indicator of whether a company is
-increasing its gross sales, which may be due to increasing prices,
-market share or sales from new products or services.
-
-If the average analyst estimate of revenue is \> 50% in 2 years time the
-stock is scored one point.
-
-##### CHECK \#4: Does the average analyst expect Operating Cash Flow to increase by 50% or more in 2 years?
-
-This check is used to identify whether on average analysts' expect
-strong cashflow growth over the short / medium term of 2 years.
-
-Growth in Operating Cash Flows indicates whether the company is growing
-free cash from its "operational" activities. In some circumstances free
-Cash Flow is a better measure of a company's performance than profit, as
-the profit figure may be distorted by transactions and adjustments which
-are not related to the company's day to day operations.
-
-Cash from "investing" activities is excluded from this check as these
-activities are largely unrelated to the normal operations of a company
-(eg from capital or debt raising activities).
-
-If the average analyst estimate of Operating Cash Flow is \> 50% in 2
-years time the stock is scored one point.
-
-##### CHECK \#5: Does the average analyst expect Net Income (Profit) to increase by 50% or more in 2 years?
-
-This check is used to identify whether on average analysts' expect
-strong Net Profit (ie "bottom line") growth over the short / medium term
-of 2 years.
-
-Growth in Net Income indicates whether the company is growing
-profitably. Fundamentally a company's value will increase as a result of
-increasing Net Profit over the medium / long term.
-
-If the average analyst estimate of Net Income (Profit) is \> 50% in 2
-years time the stock is scored one point.
+| Annual Net Income Growth Rate | Annual growth rate of GAAP net income excluding extraordinary items over the next 3-5 years based on analyst&#39;s estimates |
+| --- | --- |
+| Annual Revenue Growth Rate | Annual growth rate of revenue over the next 3-5 years based on analyst&#39;s estimates |
+| Low risk savings rate | Readily available consumer savings account interest rate of the listing country |
+| Inflation (CPI) | CPI of the region of the listing country |
+| Market Average Annual Net Income Growth Rate | Weighted average annual net income growth rate of the listing country.See industry averages methodology for how this is calculated. |
+| Market Average Annual Revenue Growth Rate | Weighted average annual revenue growth rate of the listing country.See industry averages methodology for how this is calculated. |
 
 #### Return on Equity (ROE)
 
@@ -581,6 +474,40 @@ vice versa.
 
 An ROE of 20% or greater is considered to be indicative of a company
 which is highly profitable / efficient.
+
+### The SWS Snowflake checks regarding Future Performance
+
+##### CHECK #1: Is the annual growth rate in net income expected to exceed the low risk savings rate, plus a premium to keep pace with inflation?
+
+This check measures whether the expected net income growth of a stock at least matches the low-risk savings rate plus a premium to keep pace with inflation. If not, it may be more rational to invest in a low-risk savings product rather than the stock being reviewed, which carries a higher level of risk.
+
+If the average annual growth rate of net income is greater than the low risk savings rate plus inflation, then the stock is scored one point.
+
+If the company is expected to become profitable in the next 5 years, then the stock is also scored one point.
+
+##### CHECK #2: Is the annual growth rate in net income expected to exceed the market average in the country of listing?
+
+This check measures whether the company is expected to grow net income by more than the average stock in market in which it is listed.
+
+If the average annual growth rate of net income is greater than the weighted average net income growth for stocks listed in the same country, then the stock is scored one point.
+
+##### CHECK #3: Is the annual growth rate in revenue expected to exceed the market average in the country of listing?
+
+This check measures whether the company is expected to grow revenue by more than the average stock in market in which it is listed.
+
+If the average annual growth rate of revenue is greater than the weighted average revenue growth for stocks listed in the same country, then the stock is scored one point.
+
+##### CHECK #4: Is the annual growth rate in net income above 20%?
+
+This check is used to identify high-growth companies by looking at the annual growth rate of its net income. Net income growth indicates whether the company is able to grow its profitability, which fundamentally impacts the valuation of the company.
+
+If the average annual growth rate of net income is greater than 20%, then the stock is scored one point.
+
+##### CHECK #5: Is the annual growth rate in revenue above 20%?
+
+This check is used to identify high-growth companies by looking at the annual growth rate of its revenues. Revenue growth is a pure measure of growth, as the number is more difficult to manipulate. It usually sheds light on how the company&#39;s operations are doing and how they are growing, whether it is increasing prices, expanding market share or introducing new products.
+
+If the average annual growth rate revenue is greater than 20%, then the stock is scored one point.
 
 ##### CHECK \#6: Is the Return on Equity (ROE) in 3 years expected to be over 20%?
 
