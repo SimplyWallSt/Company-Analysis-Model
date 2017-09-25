@@ -428,8 +428,6 @@ If the PB ratio is greater than zero, but below the industry average, then the s
 **Future Performance**
 ----------------------
 
-Future Performance
-
 The SWS app examines professional analyst estimates of company future expectations for revenue, cash flow, net income and return on equity, which in turn are used to calculate growth for the respective line items. Historically, it has been demonstrated that analyst estimates, on average, are relatively accurate over the short term.
 
 #### How does SWS calculate growth rates
@@ -440,8 +438,9 @@ The slope, or gradient, of this line is then divided by the average of the absol
 
 #### Data points used to perform these checks
 
-| Annual Net Income Growth Rate | Annual growth rate of GAAP net income excluding extraordinary items over the next 3-5 years based on analyst&#39;s estimates |
+| **Data point** | **Notes** |
 | --- | --- |
+| Annual Earnings Growth Rate | Annual growth rate of GAAP net income excluding extraordinary items over the next 3-5 years based on analyst&#39;s estimates |
 | Annual Revenue Growth Rate | Annual growth rate of revenue over the next 3-5 years based on analyst&#39;s estimates |
 | Low risk savings rate | Readily available consumer savings account interest rate of the listing country |
 | Inflation (CPI) | CPI of the region of the listing country |
@@ -477,19 +476,19 @@ which is highly profitable / efficient.
 
 ### The SWS Snowflake checks regarding Future Performance
 
-##### CHECK #1: Is the annual growth rate in net income expected to exceed the low risk savings rate, plus a premium to keep pace with inflation?
+##### CHECK #1: Is the annual growth rate in earnings expected to exceed the low risk savings rate, plus a premium to keep pace with inflation?
 
-This check measures whether the expected net income growth of a stock at least matches the low-risk savings rate plus a premium to keep pace with inflation. If not, it may be more rational to invest in a low-risk savings product rather than the stock being reviewed, which carries a higher level of risk.
+This check measures whether the expected net income/ earnings growth of a stock at least matches the low-risk savings rate plus a premium to keep pace with inflation. If not, it may be more rational to invest in a low-risk savings product rather than the stock being reviewed, which carries a higher level of risk.
 
-If the average annual growth rate of net income is greater than the low risk savings rate plus inflation, then the stock is scored one point.
+If the average annual growth rate of earnings is greater than the low risk savings rate plus inflation, then the stock is scored one point.
 
 If the company is expected to become profitable in the next 5 years, then the stock is also scored one point.
 
-##### CHECK #2: Is the annual growth rate in net income expected to exceed the market average in the country of listing?
+##### CHECK #2: Is the annual growth rate in earnings expected to exceed the market average in the country of listing?
 
-This check measures whether the company is expected to grow net income by more than the average stock in market in which it is listed.
+This check measures whether the company is expected to grow net income/ earnings by more than the average stock in market in which it is listed.
 
-If the average annual growth rate of net income is greater than the weighted average net income growth for stocks listed in the same country, then the stock is scored one point.
+If the average annual growth rate of net income is greater than the weighted average earnings growth for stocks listed in the same country, then the stock is scored one point.
 
 ##### CHECK #3: Is the annual growth rate in revenue expected to exceed the market average in the country of listing?
 
@@ -497,11 +496,11 @@ This check measures whether the company is expected to grow revenue by more than
 
 If the average annual growth rate of revenue is greater than the weighted average revenue growth for stocks listed in the same country, then the stock is scored one point.
 
-##### CHECK #4: Is the annual growth rate in net income above 20%?
+##### CHECK #4: Is the annual growth rate in earnings above 20%?
 
-This check is used to identify high-growth companies by looking at the annual growth rate of its net income. Net income growth indicates whether the company is able to grow its profitability, which fundamentally impacts the valuation of the company.
+This check is used to identify high-growth companies by looking at the annual growth rate of its earnings. Earnings growth indicates whether the company is able to grow its profitability, which fundamentally impacts the valuation of the company.
 
-If the average annual growth rate of net income is greater than 20%, then the stock is scored one point.
+If the average annual growth rate of net income/ earnings is greater than 20%, then the stock is scored one point.
 
 ##### CHECK #5: Is the annual growth rate in revenue above 20%?
 
