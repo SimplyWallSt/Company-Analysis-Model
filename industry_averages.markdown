@@ -49,11 +49,13 @@ Beta based metrics
 | Market Cap | All | Weighted Average |
 | Debt Equity | All | Weighted Average |
 | Insider buying | All | Weighted Average |
-| Past One Year Growth | All | Weighted Average |
-| Past Five Year Growth | All | Weighted Average |
+| Past One Year Growth | All | Median |
+| Past Five Year Growth | All | Median |
 | Intrinsic discount | All | Weighted Average |
-| Future One Year Growth | Analyst Coverage | Weighted Average |
-| Future Three Year Growth | Analyst Coverage | Weighted Average |
+| Future Net Income Annual Growth | Analyst Coverage | Weighted Average |
+| Future Earnings per Share Annual Growth | Analyst Coverage | Weighted Average |
+| Future Cash Flow Annual Growth | Analyst Coverage | Weighted Average |
+| Future Revenue Annual Growth | Analyst Coverage | Weighted Average |
 | Unlevered Beta | Beta | Weighted Average |
 | Levered Beta | Beta | Weighted Average and Median |
 | Dividend Yield | Dividend | Weighted Average |
