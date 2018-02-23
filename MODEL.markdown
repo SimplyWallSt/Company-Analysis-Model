@@ -706,20 +706,11 @@ realise short term assets to meet its long term liabilities.
 If the company's short term assets are \> long term liabilities the
 stock is scored one point.
 
-##### CHECK \#3: Is debt covered by operating cash flows?
-
-This check indicates whether, in the event of financial stress, the
-company is able to meet its debt obligations using purely its cash flow 
-for the year from its operational activities.
-
-Debt held the company is compared to Operating Cash Flows. If Operating 
-Cash Flows are \> Total Debt the stock is scored one point.
-
 #### Debt to Equity Ratio
 
 The Debt to Equity ratio measures a company's total debt relative to its
-total shareholders equity (ie net worth or shareholders funds). This
-ratio illustrates the level of leverage a company has. If the ratio is high, 
+total book value of shareholders' equity (i.e. net worth or shareholders' funds). 
+This ratio illustrates the level of leverage a company has. If the ratio is high, 
 this indicates that the company is holding a high level of debt compared to 
 its net worth, and in the event of financial stress, may experience difficulty 
 meeting debt or interest obligations.
@@ -728,18 +719,26 @@ A ratio of 40% or less is considered acceptable.
 
 The Debt to Equity ratio is calculated as;
 
-    Debt to Equity ratio = Total Debt / Total Common Shareholders Equity
+    Debt to Equity ratio = Total Debt / Total Book Value of Shareholders Equity
 
-##### CHECK \#4: Has the debt to equity ratio increased in the past 5 years?
+##### CHECK \#3: Has the debt to equity ratio increased in the past 5 years?
 
 The Debt to Equity ratio for the current year is compared to the debt to
 equity ratio 5 years ago. If the ratio has not increased, or has fallen,
 the stock is scored one point.
 
-##### CHECK \#5: Is the debt to equity ratio over 40%?
+##### CHECK \#4: Is the debt to equity ratio over 40%?
 
 If Debt to Equity ratio is \< 40% the stock is scored one point.
 
+##### CHECK \#5: Is debt covered by operating cash flows?
+
+This check indicates whether, in the event of financial stress, the
+company is able to meet its debt obligations using purely its cash flow 
+for the year from its operational activities.
+
+Debt held the company is compared to Operating Cash Flows. If Operating 
+Cash Flows are \> Total Debt the stock is scored one point.
 
 ##### CHECK \#6: Are earnings greater than 5x the interest on debt (if company pays interest at all)?
 
