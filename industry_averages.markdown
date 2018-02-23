@@ -1,9 +1,9 @@
  Simply Wall St Industry Averages Calculation Methodology
 =========================================================
 
-Industry averages are calculated by region and industry on a weekly basis. Depending on the metric we are now using median or market cap-weighted average with boundaries to exclude significant outliers.
+We update our industry averages every 6 hours, for 68 industries, in every country we cover. Depending on the metric we are now using median or market cap-weighted average with boundaries to exclude significant outliers.
 
-We update our industry averages every 6 hours, for 68 industries, in every country we cover. In the case of industry groups with less than five companies, we use the global average for that industry instead. This method allows us to provide more meaningful averages when the data is rich and precise, as well as providing alternatives for small industries of companies with lack of analyst coverage or general macroeconomic variables available for analysis.
+In the case of industry groups with less than five companies, we use the global average for that industry instead. This method allows us to provide more meaningful averages when the data is rich and precise, as well as providing alternatives for small industries of companies with lack of analyst coverage or general macroeconomic variables available for analysis.
 
 We also calculate the averages across the entire market in each country we cover, this allows us to find the median PE Ratio for New Zealand for example.
 
