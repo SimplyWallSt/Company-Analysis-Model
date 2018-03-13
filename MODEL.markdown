@@ -328,7 +328,7 @@ Relative valuation is another method to calculate a company&#39;s fair value. Th
 
 The SWS app calculates three types of relative valuation.
 
-- **Price-to-Equity (PE) ratio:** useful for profitable companies generating consistent net income over time.
+- **Price-to-Earnings (PE) ratio:** useful for profitable companies generating consistent net income over time.
 - **Price-to-Earnings Growth (PEG) ratio:** suitable for profitable companies with projected growth in the bottom-line in the future.
 - **Price-to-Book (PB) ratio:** appropriate for companies with high levels of physical assets, or loss-making.
 
