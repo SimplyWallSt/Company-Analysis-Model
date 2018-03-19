@@ -750,7 +750,24 @@ If EBIT is \> 5 x interest on debt the stock is scored one point.
 
 ### Cash Runway Analysis
 
-Placeholder
+This analysis is used in the case of companies that are loss-making on average. An important factor to consider when analysing a loss-making company is the sustainability of its operations, at its current level of cash, given that its revenues do not cover its cost.
+
+The last two checks from the balance sheet checks above (CHECK #5 and CHECK #6) is replaced with more stringent and relevant criteria for loss-making companies.
+
+The following data points are used in addition to the previous for this analysis:
+
+| **Data point** | **Notes** |
+| --- | --- |
+| Sales, general & administrative expense (1-year) | Last reported |
+| Research & development expense (1-year) | Last reported |
+| Cash & short-term investments | Last reported |
+
+##### CHECK #5: Does cash and short-term investments cover stable operating expenses (recurring G&A and R&D) for more than 3 years? 
+This check indicates whether the company’s cash and other liquid asset levels are high enough to pay its operating expenses (recurring G&A and R&D) next year, should the level of operating expenses remain at the same level. If coverage is sufficient, the stock is scored one point.
+
+##### CHECK #6:  Does cash and short-term investments cover growing operating expenses (recurring G&A and R&D) for more than 3 years?
+This check indicates whether the company’s cash and other liquid asset levels are high enough to pay its operating expenses (recurring G&A and R&D) next year, should operating expenses grow at the same rate annually as it had in the past two years. If coverage is sufficient, the stock is scored one point.
+
 
 ### Financial Institutions
 
