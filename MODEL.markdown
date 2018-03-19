@@ -748,6 +748,10 @@ indicates a strong level of coverage.
 
 If EBIT is \> 5 x interest on debt the stock is scored one point.
 
+### Cash Runway Analysis
+
+Placeholder
+
 ### Financial Institutions
 
 This analysis is used in the case of Banks, Financial Service companies,
