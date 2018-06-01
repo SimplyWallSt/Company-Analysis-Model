@@ -874,12 +874,13 @@ scored one point.
 The Income section of the SWS app provides an analysis of a company's
 dividend (income) payments to its shareholders.
 
-The app analyses the dividend payment in terms of its absolute level and
-against other dividend payers. In addition the app analyses the
+The app analyses the dividend payment in terms of its dividend yield
+against other dividend payers. In addition, the app analyses the
 volatility and sustainability of the dividend.
 
-Note that if a company pays a dividend of less than 0.5%, or no
-dividend, no further Income checks are undertaken.
+Note that if a company is in the bottom 10th percentile in terms of 
+dividend yield within its market, volatility and sustainability checks 
+are not undertaken.
 
 ### Dividend Yield %
 
@@ -902,15 +903,15 @@ Data points used to in the Income analysis:
   
   Note: For an [American Depository Receipt (ADR)](https://en.wikipedia.org/wiki/American_depositary_receipt) or equivalent the dividend yield is derived from the the primary listing of the stock, not the ADR. 
   
-##### CHECK \#1: Is the current dividend yield higher than the cash savings rate?
+##### CHECK \#1: Is the current dividend yield higher than the 25th percentile of the market?
 
-If the Dividend Yield is \> the cash savings rate (for the relevant
-geography) the stock is scored one point.
+If the Dividend Yield is \> the 25th percentile of the company’s 
+market the stock is scored one point.
 
-##### CHECK \#2: Is the current dividend yield in the top 25% of dividend paying stocks?
+##### CHECK \#2: Is the current dividend yield higher than the 75th percentile of the market?
 
-If the Dividend Yield is within the top 25% of dividend paying stocks
-(for the relevant geography) the stock is scored one point.
+If the Dividend Yield is \> the 75th percentile of the company’s 
+market the stock is scored one point.
 
 ##### CHECK \#3: Has the dividend been volatile in the past 10 years?
 
