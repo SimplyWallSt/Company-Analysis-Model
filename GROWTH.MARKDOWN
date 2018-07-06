@@ -67,6 +67,8 @@ For example, HemaCare has a current ROE of 30.2% but its industry median ROE is 
 Return on Equity = Earnings / Equity
 ∴ Earnings = Return on Equity * Equity
 
+Retained Earnings = Earnings * Retention Ratio
+
 Equity = Equity in previous period + Retained Earnings
 ```
 |Year                   | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 |
