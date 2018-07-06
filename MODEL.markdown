@@ -362,7 +362,7 @@ The PEG ratio is calculated as:
 | **Data point** | **Notes** |
 | --- | --- |
 | PE Ratio | As above |
-| Annual net income growth rate | The same annual net income growth rate calculated in the  [Future Performance analysis](https://github.com/SimplyWallSt/Company-Analysis-Model/blob/master/MODEL.markdown#minimum-earnings-growth) |
+| Annual net income growth rate | The same annual net income growth rate calculated in the  [Future Performance analysis](https://github.com/SimplyWallSt/Company-Analysis-Model/blob/master/MODEL.markdown#future-performance) |
 
 #### PB Ratio – How Is This Calculated?
 
@@ -435,6 +435,8 @@ The SWS app examines professional analyst estimates of company future expectatio
 Annual growth rates for each line item are calculated using weighted linear regression which plots a line of best-fit through the time series data point. The year with more analyst coverage has higher weighting, which means we place more importance on estimates with twenty analysts&#39; forecasts compared to ones with only a few. The first data point is taken from the most recent earnings release and given a weight of one.
 
 The slope, or gradient, of this line is then divided by the average of the absolute values to compute the annual growth rate. Using absolute values allow us to calculate a growth rate even when a line item, such as earnings, is negative, or is expected to become positive.
+
+[Read more about how SWS estimates growth rates](https://github.com/SimplyWallSt/Company-Analysis-Model/blob/master/GROWTH.MARKDOWN)
 
 #### Data points used to perform these checks
 
@@ -559,6 +561,8 @@ line is fitted to the historical quarterly LTM EPS data and the gradient
 (M coefficient) divided by the average earnings over the same period.
 This not only produces the best overall growth trend but also handles
 some negative earnings.
+
+[Read more about how SWS calculates growth rates](https://github.com/SimplyWallSt/Company-Analysis-Model/blob/master/GROWTH.MARKDOWN)
 
 #### How is growth from negative earnings handled?
 
