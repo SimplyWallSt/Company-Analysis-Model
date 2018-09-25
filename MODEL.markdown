@@ -766,11 +766,11 @@ The following data points are used in addition to the previous for this analysis
 | Research & development expense (1-year) | Last reported |
 | Cash & short-term investments | Last reported |
 
-##### CHECK #5: Does cash and short-term investments cover stable operating expenses (recurring G&A and R&D) for more than 3 years? 
-This check indicates whether the company’s cash and other liquid asset levels are high enough to pay its operating expenses (recurring G&A and R&D) next year, should the level of operating expenses remain at the same level. If coverage is sufficient, the stock is scored one point.
+##### CHECK #5: Does cash and short-term investments cover stable cash burn (negative free cash flow) for more than 3 years? 
+This check indicates whether the company’s cash and other liquid asset levels are high enough to cover its negative free cash flow over the next 3 years, should the rate remain stable. If coverage is sufficient, the stock is scored one point.
 
-##### CHECK #6:  Does cash and short-term investments cover growing operating expenses (recurring G&A and R&D) for more than 3 years?
-This check indicates whether the company’s cash and other liquid asset levels are high enough to pay its operating expenses (recurring G&A and R&D) next year, should operating expenses grow at the same rate annually as it had in the past two years. If coverage is sufficient, the stock is scored one point.
+##### CHECK #6:  Does cash and short-term investments cover growing cash burn (negative free cash flow) for more than 3 years?
+This check indicates whether the company’s cash and other liquid asset levels are high enough to cover its negative free cash flow over the next 3 years, should rate grow or shrink at the same rate annually as it had in the past two years. If coverage is sufficient, the stock is scored one point.
 
 
 ### Financial Institutions
