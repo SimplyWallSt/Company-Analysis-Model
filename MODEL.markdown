@@ -754,7 +754,7 @@ If EBIT is \> 5 x interest on debt the stock is scored one point.
 
 ### Cash Runway Analysis
 
-This analysis is used in the case of companies that are loss-making on average. An important factor to consider when analysing a loss-making company is the sustainability of its operations, at its current level of cash, given that its revenues do not cover its cost.
+This analysis is used in the case of companies that are currently loss-making and loss-making on average. An important factor to consider when analysing a loss-making company is the sustainability of its operations, at its current level of cash, given that its revenues may not cover its costs.
 
 The last two checks from the balance sheet checks above (CHECK #5 and CHECK #6) is replaced with more stringent and relevant criteria for loss-making companies.
 
@@ -762,15 +762,15 @@ The following data points are used in addition to the previous for this analysis
 
 | **Data point** | **Notes** |
 | --- | --- |
-| Sales, general & administrative expense (1-year) | Last reported |
-| Research & development expense (1-year) | Last reported |
+| Levered Free Cash Flow (1-year) | Last reported/ LTM |
+| Levered Free Cash Flow annual growth rate | Linear regression over the past 3 years |
 | Cash & short-term investments | Last reported |
 
 ##### CHECK #5: Does cash and short-term investments cover stable cash burn (negative free cash flow) for more than 3 years? 
 This check indicates whether the company’s cash and other liquid asset levels are high enough to cover its negative free cash flow over the next 3 years, should the rate remain stable. If coverage is sufficient, the stock is scored one point.
 
 ##### CHECK #6:  Does cash and short-term investments cover growing cash burn (negative free cash flow) for more than 3 years?
-This check indicates whether the company’s cash and other liquid asset levels are high enough to cover its negative free cash flow over the next 3 years, should rate grow or shrink at the same rate annually as it had in the past two years. If coverage is sufficient, the stock is scored one point.
+This check indicates whether the company’s cash and other liquid asset levels are high enough to cover its negative free cash flow over the next 3 years, should rate grow or shrink at the same rate annually as it had in the past three years. If coverage is sufficient, the stock is scored one point.
 
 
 ### Financial Institutions
