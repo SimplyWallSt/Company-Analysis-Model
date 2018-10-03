@@ -988,28 +988,22 @@ The following data is used in the SWS management analysis:
   Number of shares sold by insiders                       |  Last reported, includes options exercised
   Number of shares bought by insiders                     |  Last reported, includes options exercised
 
-##### CHECK \#1: Is the CEO's compensation unreasonable compared to market cap and earnings?
+##### CHECK \#1: How does the CEO compensation compare to a set of similar sized companies?
 
-Whilst extensive analysis on CEO compensation exists there is no
-industry standard metric or ratio to check for unreasonable levels
-compared to company performance. We based our check on an excellent
-article from
-[Fool.com](http://www.fool.com/investing/general/2014/07/19/are-ceos-worth-the-millions-of-dollars-theyre-paid.aspx)
-in 2014.
+We compare each company with a group of companies of similar size, and then test how the CEO is paid compared to the median of that group. If the CEO is paid 30% or more less than the median, then we consider pay to be below average. If the CEO is paid within 30% of the median pay, then we consider the pay to be around average. If the CEO is paid 30% or more above the median pay, then we consider the pay to be above average. 
 
-(From the Fool.com)
+You can see the cohort that a certain company compensation has been compared to, in the table below.
 
-In 2013, the average S&P 500 CEO earned $10.5 million, a new record.
-Total profits of S&P 500 companies were about $1 trillion, or $2
-billion on average, meaning the average CEO's compensation was about
-0.5% of the company's profit, or 0.03% of market cap, which is about
-$35 billion on average. Since executive pay seems like it should be
-tied to company profits and market value, perhaps we should use that as
-a starting point.
-
-Therefore this check is flagged if the following occurs:
-
-    CEO Comp > (0.5% * Net Income + 0.03% * Market Cap)
+ **Comparison Band**                                       | **Market Cap Of Company**
+  ---------------------------------------------------------| ----------------------------------------------------------------------------
+ $0 - $200 million                                         |  Less than $150 million
+ $100m - $400m                                             |  $150m - $300m
+ $200m - $800m                                             |  $300m - $600m
+ $400m - $1.6 billion                                      |  $600b - $1.2 billion
+ $1b - $3.2b                                               |  $1.2b - $2.4b
+ $2b - $6.4b                                               |  $2.4b - $4.8b
+ $4b - $12.8b                                              |  $4.8b - $9.6b
+ $8b and above                                             |  $9.6b and above
 
 ##### CHECK \#2: Has the CEO's compensation increased more than 20% whilst the EPS is down more than 20%?
 
