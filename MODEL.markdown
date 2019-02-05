@@ -73,7 +73,7 @@ order to allow:
 -   consolidated view using our "portfolio" feature.
 
 #### Example Snowflake
-![Example Snowflake Tile](https://simplywall.st/build/images/landing/NYSE-WALT250.PNG "Example Snowflake Tile" )
+![Example Snowflake Tile](https://simplywall.st/build/images/landing/NYSE-WALT250.png "Example Snowflake Tile" )
 
 #### Methodology behind generating the Snowflake  
 The snowflake is constructed as follows:
