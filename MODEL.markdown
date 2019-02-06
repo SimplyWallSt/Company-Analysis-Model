@@ -611,7 +611,7 @@ often primarily made up of debt).
 
 ROCE is calculated as:
 
-    Return on Capital Employed (ROCE) = Net Income / Long Term Liabilities
+    Return on Capital Employed (ROCE) = EBIT / (Total Assets - Current Liabilities)
 
 ROCE measures the efficiency of the usage of the company's total
 available capital, and is often used in conjunction with ROE to provide
@@ -622,10 +622,11 @@ returns.
 The higher the ROCE, the higher the profitability of the company, and
 vice versa.
 
-  **Data point**                          | **Notes**
-  ----------------------------------------| -----------
-  Net income (LTM & -3 years)             | Annual
-  Long term liabilities (LTM & -3 years)  | Annual
+  **Data point**                               | **Notes**
+  ---------------------------------------------| -----------
+  Earnings Before Interest and Taxes (EBIT)    | Annual
+  Total Assets				       | Annual
+  Current Liabilities			       | Annual
 
 ##### CHECK \#5: Has the Return on Capital Employed (ROCE) increased from 3 years ago?
 
