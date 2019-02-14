@@ -51,10 +51,6 @@ Below is an example calculation for Amazon (NASDAQgs:AMZN) from 14/2/2019. Note 
 
 ** 10 year cash flow forecast **
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-
 | Year | Levered FCF (USD, Millions) | Source | Present Value Discounted (@ 11.99%) | 
 | ---- | ---- | ---- | ---- |
 | 2019 | 27209 | Analyst x12 | 24296 |
@@ -93,3 +89,37 @@ Current discount (share price of $1,670.43): -7.9%
 ----------------------------------------------
 
 And here is the same calculation performed using the current valuation method:
+
+| Year | Levered FCF (USD, Millions) | Source | Present Value Discounted (@ 11.99%) | 
+| ---- | ---- | ---- | ---- |
+| 2019 | 27209 | Analyst x12 | 24296 |
+| 2020 | 37268 | Analyst x9 | 29716 |
+| 2021 | 46213 | Analyst x4 | 32903 |
+| 2022 | 58129 | Analyst x3 | 36956 |
+| 2023 | 70986 | Analyst x3 | 40298 |
+
+Present value of next 5 years cash flows: 359949
+
+**Terminal Value**
+
+Terminal Value = FCF2028 × (1 + g) ÷ (Discount Rate – g)
+Terminal Value = $111,030 × (1 + 2.73%) ÷ (11.99% – 2.73%)
+Terminal value based on the Perpetuity Method where growth (g) = 2.73%: 1231872
+
+Present value of terminal value: 397010
+
+**Equity Value**
+
+Equity Value (Total value) = Present value of next 5 years cash flows + terminal value
+Value = Total value / Shares Outstanding  ($756,960.14 / 488.96)
+
+
+Value per share: 1,548
+
+----------------------------------------------
+
+Current discount (share price of $1,670.43): -7.9%
+
+----------------------------------------------
+
+
