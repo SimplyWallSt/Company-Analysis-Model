@@ -1,4 +1,4 @@
-Our Automated Intrinsic Value estimates are about to get better
+## Our Automated Intrinsic Value estimates are about to get better
 
 Our automated estimates of intrinsic value provide a quick view of how the company’s financial performance, and analyst estimates, translate to underlying value. Our current calculation works well for stable businesses, but it often doesn’t fully capture the value that fast growing businesses can create. 
 
@@ -9,7 +9,7 @@ Our new automated intrinsic value estimate will:
 Extend the high-growth stage from five years to ten years
 Use a new ‘growth curve’ to reach the long-run growth rate
 Use an improved ‘adjusted’ historical free cash flow 
-#1: Extended high-growth stage
+### #1: Extended high-growth stage
 
 The 2-Stage Free Cash Flow Model uses two stages. In the first stage, estimates of levered free cash flow to equity are used, which is sourced from market analyst consensus estimates. If no estimates are available, then the last estimate or reported value is extrapolated using the historical average annual growth rate.
 
@@ -17,13 +17,13 @@ In the second stage, a terminal value is calculated using the Gordon Growth form
 
 With this update we will increase the high-growth stage from five years to ten years. This will better reflect that growing businesses usually continue to grow at a moderate pace, before eventually slowing to the long-run growth rate.
 
-#2: Use a new growth curve to reach the long-run growth rate
+### #2: Use a new growth curve to reach the long-run growth rate
 
 Wherever possible, we use market analyst consensus estimates as the basis of our free cash flow forecasts. If no estimates are available, then the last estimate or reported value is extrapolated using the historical average annual growth rate. The following years are then forecast to grow, but with the growth rate reducing each year, until it reaches the long-run stable growth rate. 
 
 
 
-#3: Adjusted historical free cash flow
+### #3: Adjusted historical free cash flow
 
 When no analyst forecasts are available we will smooth out the latest historical free cash flow numbers. Free cash flow is calculated as:
 
