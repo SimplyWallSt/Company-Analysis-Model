@@ -92,33 +92,33 @@ And here is the same calculation performed using the current valuation method:
 
 | Year | Levered FCF (USD, Millions) | Source | Present Value Discounted (@ 11.99%) | 
 | ---- | ---- | ---- | ---- |
-| 2019 | 27209 | Analyst x12 | 24296 |
-| 2020 | 37268 | Analyst x9 | 29716 |
-| 2021 | 46213 | Analyst x4 | 32903 |
-| 2022 | 58129 | Analyst x3 | 36956 |
-| 2023 | 70986 | Analyst x3 | 40298 |
+| 2019 | 27,209 | Analyst x12 | 24,296 |
+| 2020 | 37,268 | Analyst x9 | 29,716 |
+| 2021 | 46,213 | Analyst x4 | 32,903 |
+| 2022 | 58,129 | Analyst x3 | 36,956 |
+| 2023 | 70,986 | Analyst x3 | 40,298 |
 
-Present value of next 5 years cash flows: 359949
+Present value of next 5 years cash flows: 164,171
 
 **Terminal Value**
 
-Terminal Value = FCF2028 × (1 + g) ÷ (Discount Rate – g)
-Terminal Value = $111,030 × (1 + 2.73%) ÷ (11.99% – 2.73%)
-Terminal value based on the Perpetuity Method where growth (g) = 2.73%: 1231872
+Terminal Value = FCF2023 × (1 + g) ÷ (Discount Rate – g)
+Terminal Value = $70,986 × (1 + 2.73%) ÷ (11.99% – 2.73%)
+Terminal value based on the Perpetuity Method where growth (g) = 2.73%: 787,582
 
-Present value of terminal value: 397010
+Present value of terminal value: 447,110
 
 **Equity Value**
 
 Equity Value (Total value) = Present value of next 5 years cash flows + terminal value
-Value = Total value / Shares Outstanding  ($756,960.14 / 488.96)
+Value = Total value / Shares Outstanding  ($611,281 / 488.96)
 
 
-Value per share: 1,548
+Value per share: 1,250
 
 ----------------------------------------------
 
-Current discount (share price of $1,670.43): -7.9%
+Current discount (share price of $1,670.43): -34%
 
 ----------------------------------------------
 
