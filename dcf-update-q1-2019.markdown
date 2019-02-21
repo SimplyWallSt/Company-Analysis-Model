@@ -119,7 +119,7 @@ And here is the same calculation performed using the current valuation method:
 
 **Equity Value**
 
-    Equity Value (Total value) = Present value of next 5 years cash flows + terminal value ($148,361 + $311,171)
+    Equity Value (Total value) = Present value of next 5 years cash flows + terminal value ($148,361 + $322,171)
     Value = Total value / Shares Outstanding  ($470,532 / 488.96)
 
     ∴ Value per share: $962
