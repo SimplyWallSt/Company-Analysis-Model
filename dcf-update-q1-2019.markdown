@@ -2,9 +2,9 @@
 
 Our automated estimates of intrinsic value provide a quick view of how the company’s financial performance, and analyst estimates, translate to underlying value. Our current calculation works well for stable businesses, but it often doesn’t fully capture the value that fast growing businesses can create. 
 
-So on Saturday the 23rd of February we’re rolling out a few small, but powerful, changes. 
+So on Monday the 25th of February we’re rolling out a few small, but powerful, changes. 
 
-Our new automated intrinsic value estimate will:
+Our new automated intrinsic value estimate will include three significant changes:
 
 *  Extend the high-growth stage from five years to ten years
 *  Use a new ‘growth curve’ to reach the long-run growth rate
@@ -34,7 +34,7 @@ Capital investments can be lumpy. In some years a new factory is needed, in othe
 
     Adjusted Free Cash Flow = Operating Cash Flow - Three year average rate of Capital Investment
 
-
+In addition to these improvements, we have also improved our beta estimates, risk free rates, and equity risk premium data points.
 
 ### Which companies will be most affected?
 
@@ -91,42 +91,42 @@ Below is an example calculation for Amazon (NASDAQGS:AMZN) from 14/2/2019. Note 
 
     ∴ Value per share: $1,548
 
-**Current Discount**
+**New Discount**
 
-Current discount = (share price of $1,670.43): -7.9%
+New discount = (share price of $1,670.43): -7.9%
 
 ### Old Method Worked Example
 
 And here is the same calculation performed using the current valuation method:
 
-| Year | Levered FCF (USD, Millions) | Source | Present Value Discounted (@ 11.99%) | 
+| Year | Levered FCF (USD, Millions) | Source | Present Value Discounted (@ 15.58%) | 
 | ---- | ---- | ---- | ---- |
-| 2019 | 27,209 | Analyst x12 | 24,296 |
-| 2020 | 37,268 | Analyst x9 | 29,716 |
-| 2021 | 46,213 | Analyst x4 | 32,903 |
-| 2022 | 58,129 | Analyst x3 | 36,956 |
-| 2023 | 70,986 | Analyst x3 | 40,298 |
+| 2019 | 27,209 | Analyst x12 | 24,736 |
+| 2020 | 37,268 | Analyst x9 | 30,801 |
+| 2021 | 46,213 | Analyst x4 | 34,721 |
+| 2022 | 58,129 | Analyst x3 | 39,703 |
+| 2023 | 70,986 | Analyst x3 | 44,077 |
 
-    Present value of next 5 years cash flows: $164,171
+    Present value of next 5 years cash flows: $148,361
 
 **Terminal Value**
 
     Terminal Value = FCF2023 × (1 + g) ÷ (Discount Rate – g)
-    Terminal Value = $70,986 × (1 + 2.73%) ÷ (11.99% – 2.73%)
-    Terminal value based on the Perpetuity Method where growth (g) = 2.73%: 787,582
+    Terminal Value = $70,986 × (1 + 2.73%) ÷ (15.58% – 2.73%)
+    Terminal value based on the Perpetuity Method where growth (g) = 2.73%: 567,504
 
-    Present value of terminal value: $447,110
+    Present value of terminal value: $322,171
 
 **Equity Value**
 
-    Equity Value (Total value) = Present value of next 5 years cash flows + terminal value ($164,171 + $447,110)
-    Value = Total value / Shares Outstanding  ($611,281 / 488.96)
+    Equity Value (Total value) = Present value of next 5 years cash flows + terminal value ($148,361 + $311,171)
+    Value = Total value / Shares Outstanding  ($470,532 / 488.96)
 
-    ∴ Value per share: $1,250
+    ∴ Value per share: $962
 
-**Current Discount**
+**Old Discount**
 
-Current discount = (share price of $1,670.43): -34%
+Old discount = (share price of $1,670.43): -73.6%
 
 
 
@@ -134,7 +134,7 @@ Current discount = (share price of $1,670.43): -34%
 
 | Ticker        |  Company  | Old Discount to DCF | New Discount to DCF | Difference |
 |---------------|:---------:|--------------------:|---------------------|------------|
-| NASDAQGS:AMZN |   Amazon  |              -69.4% | -5.0%               | 64.3%      |
+| NASDAQGS:AMZN |   Amazon  |              -73.6% | -7.9%               | 65.7%      |
 | NASDAQGS:AAPL |   Apple   |              -17.6% | 4.9%                | 22.5%      |
 | NASDAQGS:MSFT | Microsoft |              -60.9% | -17.0%              | 43.9%      |
 | NYSE:V        | Visa      | -55.6%              | -12.2%              | 43.3%      |
