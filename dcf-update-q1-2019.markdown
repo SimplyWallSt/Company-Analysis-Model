@@ -138,3 +138,6 @@ Old discount = (share price of $1,670.43): -73.6%
 | NASDAQGS:AAPL |   Apple   |              -17.6% | 4.9%                | 22.5%      |
 | NASDAQGS:MSFT | Microsoft |              -60.9% | -17.0%              | 43.9%      |
 | NYSE:V        | Visa      | -55.6%              | -12.2%              | 43.3%      |
+
+### Feedback
+For any questions or feedback on these changes email us at: info@simplywallst.com
