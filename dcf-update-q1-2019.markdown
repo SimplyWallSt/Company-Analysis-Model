@@ -4,7 +4,7 @@ Our automated estimates of intrinsic value provide a quick view of how the compa
 
 So on Saturday the 23rd of February we’re rolling out a few small, but powerful, changes. 
 
-Our new automated intrinsic value estimate will:
+Our new automated intrinsic value estimate will include three significant improvements:
 
 *  Extend the high-growth stage from five years to ten years
 *  Use a new ‘growth curve’ to reach the long-run growth rate
@@ -34,7 +34,7 @@ Capital investments can be lumpy. In some years a new factory is needed, in othe
 
     Adjusted Free Cash Flow = Operating Cash Flow - Three year average rate of Capital Investment
 
-
+In addition to these improvements, we have also improved our beta estimates, risk free rates, and equity risk premium data points.
 
 ### Which companies will be most affected?
 
