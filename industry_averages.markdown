@@ -7,7 +7,7 @@ In the case of industry groups with less than five companies, we use the regiona
 
 We also calculate the averages across the entire market in each country we cover, this allows us to find the median PE Ratio for New Zealand for example.
 
-We include all listed companies in each market/ region in our averages, this means companies with listings in many countries (e.g. Royal Dutch Shell) will be included in our calculations in multiple countries. This is to give a better comparison to the rest of the market for investors in each country. Funds are excluded and ADR's are normally included if they are listed in the same currency as the exchange. 
+We include all primary listed companies in each market/ region in our averages, this means for companies with listings in many countries (e.g. Royal Dutch Shell) the country of their primary listing (usually their headquarters) is used. This is to give a better comparison to the rest of the market for investors in each country. Funds and depositary receipts are excluded. 
 
 To give an example of this for NZX:AIA (Auckland International Airport), an infrastructure company based in New Zealand:
 
@@ -35,7 +35,7 @@ Depending on the metric being averaged we use one of the following calculation m
 * Xth Percentile
 
 ## Market Cap Groupings
-We use the following thresholds to define our market cap groups based on the distribution of companies globally. Not all market caps are converted to USD for consistency:
+We use the following thresholds to define our market cap groups based on the distribution of companies globally. Remember all market caps are converted to USD for consistency:
 * Small cap: $0 - $500M (~21,000 companies)
 * Mid cap: $500M - $5B (~5000 companies)
 * Large cap: >$5B (~2000 companies)
