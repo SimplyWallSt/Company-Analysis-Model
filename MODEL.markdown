@@ -167,9 +167,9 @@ The SWS app uses four variations of DCF depending on the characteristics of a pa
 
 #### 2-Stage Free Cash Flow Model – How Is This Calculated?
 
-Two calculations are performed: high-growth stage and stable-growth stage. In **high-growth** , estimates over the next five years of levered free cash flow to equity are used, which is sourced from market analyst consensus estimates. If no estimates are available, then the last estimate or reported value is extrapolated using historical average annual growth rate, capped within a reasonable range of 20% in the first year declining by 1% per year.
+Two calculations are performed: high-growth stage and stable-growth stage. In **high-growth** , estimates over the next ten years of levered free cash flow to equity are used, which is sourced from market analyst consensus estimates. If no estimates are available, then the last estimate or reported value is extrapolated using the historical average annual growth rate. The following years are then forecast to grow, but with the growth rate reducing each year, until it reaches the long-run stable growth rate.
 
-In **stable-growth** , a terminal value is calculated using the Gordon Growth formula, with an assumption that the company will continue to grow its earnings at the 10-year government bond rate, forever. The sum of the cash flow arising from the forecasts are then discounted to today&#39;s value using a discount rate, then divided by shares on issue, giving a value per share.
+In **stable-growth**, a terminal value is calculated using the Gordon Growth formula, with an assumption that the company will continue to grow its earnings at the 10-year government bond rate, forever. The sum of the cash flow arising from the forecasts are then discounted to today&#39;s value using a discount rate, then divided by shares on issue, giving a value per share.
 
 #### Dividend Discount Model – How Is This Calculated?
 
