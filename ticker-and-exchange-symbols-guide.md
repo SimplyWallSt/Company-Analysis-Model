@@ -7,7 +7,7 @@ This list is useful if you want to check exactly which markets are available in 
 
 Looking at the list below if you wanted to add `Facebook` to your Portfolio the correct exchange and ticker symbol would be `NasdaqGM:FB`, due to it being listed on the Nasdaq Global Markets exchange.
 
-| Company           |  Ticker  | Simply Wall St Symbol |
+| Company           |  Ticker Symbol | Simply Wall St Symbol |
 |-------------------|:--------:|----------------------:|
 | Facebook          |    FB    |           NasdaqGS:FB |
 | Walt Disney       |    DIS   |              NYSE:DIS |
