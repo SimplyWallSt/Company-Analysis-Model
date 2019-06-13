@@ -748,7 +748,7 @@ company is able to meet its debt obligations using purely its cash flow
 for the year from its operational activities.
 
 Debt held the company is compared to Operating Cash Flows. If Operating 
-Cash Flows are \> Total Debt the stock is scored one point.
+Cash Flows are \> 20% of Total Debt the stock is scored one point.
 
 ##### CHECK \#6: Are earnings greater than 5x the interest on debt (if company pays interest at all)?
 
