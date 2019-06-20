@@ -772,11 +772,11 @@ The following data points are used in addition to the previous for this analysis
 | Levered Free Cash Flow annual growth rate | Linear regression over the past 3 years |
 | Cash & short-term investments | Last reported |
 
-##### CHECK #5: Does cash and short-term investments cover stable cash burn (negative free cash flow) for more than 3 years? 
-This check indicates whether the company’s cash and other liquid asset levels are high enough to cover its negative free cash flow over the next 3 years, should the rate remain stable. If coverage is sufficient, the stock is scored one point.
+##### CHECK #5: Does cash and short-term investments cover stable cash burn (negative free cash flow) for more than 1 year? 
+This check indicates whether the company’s cash and other liquid asset levels are high enough to cover its negative free cash flow over the next year, should the rate remain stable. If coverage is sufficient, the stock is scored one point.
 
-##### CHECK #6:  Does cash and short-term investments cover growing cash burn (negative free cash flow) for more than 3 years?
-This check indicates whether the company’s cash and other liquid asset levels are high enough to cover its negative free cash flow over the next 3 years, should rate grow or shrink at the same rate annually as it had in the past three years. If coverage is sufficient, the stock is scored one point.
+##### CHECK #6:  Does cash and short-term investments cover growing cash burn (negative free cash flow) for more than 1 year?
+This check indicates whether the company’s cash and other liquid asset levels are high enough to cover its negative free cash flow over the next year, should rate grow or shrink at the same rate annually as it had in the past three years. If coverage is sufficient, the stock is scored one point.
 
 
 ### Financial Institutions
