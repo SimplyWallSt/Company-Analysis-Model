@@ -211,7 +211,7 @@ The discount rate is calculated based on the following equation:
 
     Discount rate = Cost of Equity = Risk Free Rate + (Levered Beta \* Equity Risk Premium)
 
-The risk-free rate is the 10-year government bond rate and the equity risk premium is 10% less the risk-free rate. Beta is a measure of volatility, or risk, in comparison to the market as a whole.
+The risk-free rate is the 10-year government bond rate. The equity risk premium is the additional return required by investors to compensate for the extra risk of investing in the share market. Beta is a measure of volatility, or risk, in comparison to the market as a whole.
 
 A bottom-up beta is calculated for each company by using it&#39;s industry unlevered beta (removes the effect of debt and varying capital structure) and levering it up using the company&#39;s own debt level to take into account its own capital structure. The bottom-up beta cannot be lower than 0.8 (this is the lowest practical beta for a stable firm, according to Damodaran) or greater than 2.
 
