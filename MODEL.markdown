@@ -18,7 +18,7 @@
 Overview of the model
 ---------------------
 
-The [Simply Wall Street](https://simplywall.st/) (SWS) app is designed to help make you a better
+The [Simply Wall St](https://simplywall.st/) (SWS) app is designed to help make you a better
 investor by allowing you to make non-emotional long term investment
 decisions.
 
@@ -72,8 +72,8 @@ order to allow:
 
 -   consolidated view using our "portfolio" feature.
 
-#### Example Snowflake
-![Example Snowflake Tile](https://simplywall.st/build/images/landing/NYSE-WALT250.png "Example Snowflake Tile" )
+#### Example Snowflakes
+![Example Snowflake Tile](https://images.ctfassets.net/n07nr2koi959/CdQubHyZQSpY1bBNyI5EM/1447fe2bdb971a71df8d29648f8a4e02/Screen_Shot_2021-06-15_at_10.37.22_pm.png "Example Snowflake Tile" )
 
 #### Methodology behind generating the Snowflake  
 The snowflake is constructed as follows:
@@ -139,11 +139,7 @@ The sensitivity of the axis:
 
 ### Summary of the Snowflake
 
-The graphic below summarises the checks used to generate the Snowflake. The remainder of this document explains each in detail and the analysis used in the Management screen.
-
-A PDF of this graphic is available [here](https://simplywall.st/documents/Simply-Wall-St-The-Snowflake-explained.pdf).
-
-![Snowflake Summary](https://simplywall.st/documents/Simply-Wall-St-The-Snowflake-explained-700.png "Snowflake Summary" )
+![Snowflake Summary](https://images.ctfassets.net/n07nr2koi959/1NwqgKNENV6pYtQSrV3NHu/45ba7526242c1f67b542aafc18e7eb1c/screener-large.gif "Snowflake Summary" )
 
 **Value**
 ---------
