@@ -102,6 +102,9 @@ Note these are for the primary listings of the companies above, many of them hav
 
 **Portugal** 
 * ENXTLS
+* 
+**Romania** 
+* BVB
 
 **Russia** 
 * MISX
