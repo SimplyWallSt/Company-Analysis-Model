@@ -106,6 +106,9 @@ Note these are for the primary listings of the companies above, many of them hav
 **Russia** 
 * MISX
 
+**Romania** 
+* BVB
+
 **Sweden** 
 * OM
 
