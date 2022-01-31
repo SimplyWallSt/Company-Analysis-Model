@@ -1,4 +1,4 @@
-![Simply Wall St Logo](https://simplywall.st/images/simplywallst384.png "Simply Wall St Logo")
+![Simply Wall St Logo](https://lever-client-logos.s3.us-west-2.amazonaws.com/5aeba416-e85e-415a-a450-ba2621fadd06-1621909402547.png "Simply Wall St Logo")
  
  Simply Wall St Company Analysis Model
 ======================================
