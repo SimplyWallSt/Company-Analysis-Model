@@ -24,7 +24,7 @@ Annual past earnings growth rate = Line of Best Fit Slope * / Average of Absolut
 * Line of best fit slope is also equal to the average increase in earnings per year.
 ```
 
-![Past Line of Best Fit](https://simplywall.st/news/wp-content/uploads/2018/07/line-of-best-fit-past.png)
+![Past Line of Best Fit](./images/line-of-best-fit-past.png)
 
 
 
@@ -47,7 +47,7 @@ Annual future earnings growth rate = Weighted Line of Best Fit Slope * / Average
 |Earnings (US$, B) |17.85 |22.32 |26.93 |33.1  |39.62 |46.52 |
 |Analysts          |Actual|  39  |  36  |  27  |  12  |   12  |
 
-![Future Line of Best Fit](https://simplywall.st/news/wp-content/uploads/2018/07/line-of-best-fit-future.png)
+![Future Line of Best Fit](./images/line-of-best-fit-future.png)
 
 ***Note on negative earnings***: when the first period of earnings is negative, the growth rate cannot be estimated. To overcome this, we use the absolute value of earnings to calculate the growth rate. For annualized growth rates (i.e. on average, how much will Apple growth year-on-year over the next few years?) we will still show this rate, but the subject company will not be able to pass some of the growth checks if earnings are negative. For single point-in-time growth rates (i.e. how much will Apple grow in the upcoming year?), we will not compute the growth rate at all is earnings start off as negative.
 

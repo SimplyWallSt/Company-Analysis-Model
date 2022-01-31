@@ -1,4 +1,4 @@
-![Simply Wall St Logo](https://lever-client-logos.s3.us-west-2.amazonaws.com/5aeba416-e85e-415a-a450-ba2621fadd06-1621909402547.png "Simply Wall St Logo")
+![Simply Wall St Logo](./images/simply-wall-st-logo.png "Simply Wall St Logo")
  
  Simply Wall St Company Analysis Model
 ======================================
@@ -73,7 +73,7 @@ order to allow:
 -   consolidated view using our "portfolio" feature.
 
 #### Example Snowflakes
-![Example Snowflake Tile](https://images.ctfassets.net/n07nr2koi959/CdQubHyZQSpY1bBNyI5EM/1447fe2bdb971a71df8d29648f8a4e02/Screen_Shot_2021-06-15_at_10.37.22_pm.png "Example Snowflake Tile" )
+![Example Snowflake Tile](./images/example-snowflake-tile.png "Example Snowflake Tile" )
 
 #### Methodology behind generating the Snowflake  
 The snowflake is constructed as follows:
@@ -139,7 +139,7 @@ The sensitivity of the axis:
 
 ### Summary of the Snowflake
 
-![Snowflake Summary](https://images.ctfassets.net/n07nr2koi959/1NwqgKNENV6pYtQSrV3NHu/45ba7526242c1f67b542aafc18e7eb1c/screener-large.gif "Snowflake Summary" )
+![Snowflake Summary](./images/snowflake-summary.gif "Snowflake Summary" )
 
 **Value**
 ---------
@@ -159,7 +159,7 @@ The SWS app uses four variations of DCF depending on the characteristics of a pa
 - **Excess Returns Model:** used for financial companies such as banks and insurance, generally do not have a significant proportion of physical assets, and face different regulatory requirements for cash holdings.
 - **Adjusted-Funds-From-Operations (AFFO) 2-Stage Discounted Cash Flow Model:** used for Real Estate Investment Trusts (REITs), as they incur capital gains and other real estate-specific factors which impacts their free cash flows.
 
-![Simply Wall St Discounted Cash Flow Model Selection Proces](https://simplywall.st/build/images/landing/sws_model_selection_process.png "Simply Wall St Discounted Cash Flow Model Selection Process")
+![Simply Wall St Discounted Cash Flow Model Selection Process](./images/sws-model-selection-process.png "Simply Wall St Discounted Cash Flow Model Selection Process")
 
 #### 2-Stage Free Cash Flow Model – How Is This Calculated?
 
