@@ -41,17 +41,17 @@ In addition to these improvements, we have also improved our beta estimates, ris
 ##### High Growth
 
 Companies that are growing free cash flow significantly faster than GDP will likely have a higher automated intrinsic value estimate. This is because they will now be forecast to grow for a longer period before reaching the terminal stable growth rate:
-![High Growth Company Example](https://simplywall.st/build/images/landing/dcf-high-growth.png "High Growth Company Example")
+![High Growth Company Example](./images/dcf-high-growth.png "High Growth Company Example")
 
 ##### Stable Growth
 
 Companies that are growing free cash flow at around the same pace as GDP will not see a substantial change from the update: 
-![Stable Growth Company Example](https://simplywall.st/build/images/landing/dcf-stable-growth.png "Stable Growth Company Example")
+![Stable Growth Company Example](./images/dcf-stable-growth.png "Stable Growth Company Example")
 
 ##### Declining Growth
 
 Companies with declining free cash flow will likely have a lower automated valuation estimate. This is because the free cash flows will now decline over a longer period before reaching stable growth:
-![Declining Growth Company Example](https://simplywall.st/build/images/landing/dcf-decline-growth.png "Declining Growth Company Example")
+![Declining Growth Company Example](./images/dcf-decline-growth.png "Declining Growth Company Example")
 
 ### Ok, cool. Can you show me a worked example of the new method?
 
