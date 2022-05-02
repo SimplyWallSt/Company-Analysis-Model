@@ -21,7 +21,7 @@ The problem is that financial companies are different, and their cash flows shou
 
 Below is a flow chart which illustrates how we choose our valuation model for each stock:
 
-![Simply Wall St Discounted Cash Flow Model Selection Proces](https://simplywall.st/build/images/landing/sws_model_selection_process.png "Simply Wall St Discounted Cash Flow Model Selection Process")
+![Simply Wall St Discounted Cash Flow Model Selection Proces](./images/sws-model-selection-process.png "Simply Wall St Discounted Cash Flow Model Selection Process")
 
 ## Banks &amp; Insurance: Excess Returns Model
 

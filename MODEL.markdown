@@ -1,4 +1,4 @@
-![Simply Wall St Logo](https://simplywall.st/images/simplywallst384.png "Simply Wall St Logo")
+![Simply Wall St Logo](./images/simply-wall-st-logo.png "Simply Wall St Logo")
  
  Simply Wall St Company Analysis Model
 ======================================
@@ -18,7 +18,7 @@
 Overview of the model
 ---------------------
 
-The [Simply Wall Street](https://simplywall.st/) (SWS) app is designed to help make you a better
+The [Simply Wall St](https://simplywall.st/) (SWS) app is designed to help make you a better
 investor by allowing you to make non-emotional long term investment
 decisions.
 
@@ -72,8 +72,8 @@ order to allow:
 
 -   consolidated view using our "portfolio" feature.
 
-#### Example Snowflake
-![Example Snowflake Tile](https://simplywall.st/build/images/landing/NYSE-WALT250.png "Example Snowflake Tile" )
+#### Example Snowflakes
+![Example Snowflake Tile](./images/example-snowflake-tile.png "Example Snowflake Tile" )
 
 #### Methodology behind generating the Snowflake  
 The snowflake is constructed as follows:
@@ -139,11 +139,7 @@ The sensitivity of the axis:
 
 ### Summary of the Snowflake
 
-The graphic below summarises the checks used to generate the Snowflake. The remainder of this document explains each in detail and the analysis used in the Management screen.
-
-A PDF of this graphic is available [here](https://simplywall.st/documents/Simply-Wall-St-The-Snowflake-explained.pdf).
-
-![Snowflake Summary](https://simplywall.st/documents/Simply-Wall-St-The-Snowflake-explained-700.png "Snowflake Summary" )
+![Snowflake Summary](./images/snowflake-summary.gif "Snowflake Summary" )
 
 **Value**
 ---------
@@ -163,13 +159,13 @@ The SWS app uses four variations of DCF depending on the characteristics of a pa
 - **Excess Returns Model:** used for financial companies such as banks and insurance, generally do not have a significant proportion of physical assets, and face different regulatory requirements for cash holdings.
 - **Adjusted-Funds-From-Operations (AFFO) 2-Stage Discounted Cash Flow Model:** used for Real Estate Investment Trusts (REITs), as they incur capital gains and other real estate-specific factors which impacts their free cash flows.
 
-![Simply Wall St Discounted Cash Flow Model Selection Proces](https://simplywall.st/build/images/landing/sws_model_selection_process.png "Simply Wall St Discounted Cash Flow Model Selection Process")
+![Simply Wall St Discounted Cash Flow Model Selection Process](./images/sws-model-selection-process.png "Simply Wall St Discounted Cash Flow Model Selection Process")
 
 #### 2-Stage Free Cash Flow Model – How Is This Calculated?
 
-Two calculations are performed: high-growth stage and stable-growth stage. In **high-growth** , estimates over the next five years of levered free cash flow to equity are used, which is sourced from market analyst consensus estimates. If no estimates are available, then the last estimate or reported value is extrapolated using historical average annual growth rate, capped within a reasonable range of 20% in the first year declining by 1% per year.
+Two calculations are performed: high-growth stage and stable-growth stage. In **high-growth** , estimates over the next ten years of levered free cash flow to equity are used, which is sourced from market analyst consensus estimates. If no estimates are available, then the last estimate or reported value is extrapolated using the historical average annual growth rate. The following years are then forecast to grow, but with the growth rate reducing each year, until it reaches the long-run stable growth rate.
 
-In **stable-growth** , a terminal value is calculated using the Gordon Growth formula, with an assumption that the company will continue to grow its earnings at the 10-year government bond rate, forever. The sum of the cash flow arising from the forecasts are then discounted to today&#39;s value using a discount rate, then divided by shares on issue, giving a value per share.
+In **stable-growth**, a terminal value is calculated using the Gordon Growth formula, with an assumption that the company will continue to grow its earnings at the 10-year government bond rate, forever. The sum of the cash flow arising from the forecasts are then discounted to today&#39;s value using a discount rate, then divided by shares on issue, giving a value per share.
 
 #### Dividend Discount Model – How Is This Calculated?
 
@@ -211,9 +207,9 @@ The discount rate is calculated based on the following equation:
 
     Discount rate = Cost of Equity = Risk Free Rate + (Levered Beta \* Equity Risk Premium)
 
-The risk-free rate is the 10-year government bond rate. The equity risk premium is the additional return required by investors to compensate for the extra risk of investing in the share market. Beta is a measure of volatility, or risk, in comparison to the market as a whole.
+The risk-free rate is the 10-year government bond rate. The equity risk premium sourced from our friend [Aswath Damodaran](http://pages.stern.nyu.edu/~adamodar/). Beta is a measure of volatility, or risk, in comparison to the market as a whole.
 
-A bottom-up beta is calculated for each company by using it&#39;s industry unlevered beta (removes the effect of debt and varying capital structure) and levering it up using the company&#39;s own debt level to take into account its own capital structure. The bottom-up beta cannot be lower than 0.8 (this is the lowest practical beta for a stable firm, according to Damodaran) or greater than 2.
+A bottom-up beta is calculated for each company by using it&#39;s industry unlevered beta (removes the effect of debt and varying capital structure) and levering it up using the company&#39;s own debt level to take into account its own capital structure. For companies outside Canada and The United States, we use the North American industry average unlevered beta. The bottom-up beta cannot be lower than 0.8 (this is the lowest practical beta for a stable firm, according to Damodaran) or greater than 2.
 
 Levered beta is used in the case of financial firms, and is not re-adjusted to account for varying capital structure. Therefore, the average levered beta of comparable companies is used as the bottom-up beta for financial firms.
 
@@ -234,50 +230,55 @@ The drawbacks of DCF are:
 
 #### What Does A Typical DCF Calculation Look Like?
 
-Below is an example calculation for [Walt Disney
-(NYSE:DIS)](https://simplywall.st/NYSE:DIS/walt-disney#value) from 22/09/2015. Note the details of the calculation can be found for any stock on SWS by clicking **Learn More** or by clicking the valuation infographic.
+Below is an example calculation for [Amazon
+(NASDAQgs:AMZN)](https://simplywall.st/stocks/us/retail/nasdaq-amzn/amazoncom#value) from 14/02/2019. Note the details of the calculation can be found for any stock on SWS by clicking **Learn More** or by clicking the valuation infographic.
 
+**10 year cash flow forecast**
 
-    **5 year cash flow forecast**
-    				2015        	2016		2017		2018		2019
-    Levered FCF (USD, Millions)	$6,563  	$8,491		$9,704		$11,063		$12,434
-    Source				Analyst x16 	Analyst x16 	Analyst x10 	Analyst x8  	Analyst x5
-    Present Value
-    Discounted (@ 8.4%)		$6,053      	$7,223		$7,613		$8,006		$8,299
-    
-    Present value of next 5 years cash flows:
-    $37,195
-    
-    **Terminal Value**
-    Terminal Value = FCF2019 × (1 + g) ÷ (Discount Rate – g)
-    Terminal Value = $12,434 × (1 + 2.1%) ÷ (8.42% – 2.1%)
-    Terminal value based on the Perpetuity Method where growth (g) = 2.1%:
-    $201,152
-    Present value of terminal value:
-    $134,257
-    
-    **Equity Value**
-    Equity Value (Total value) = Present value of next 5 years cash flows + terminal value
-    Value = Total value / Shares Outstanding ($171,452 / 1,688)
-    Value per share: 
-    $101.58
+| Year | Levered FCF (USD, Millions) | Source | Present Value Discounted (@ 11.99%) | 
+| ---- | ---- | ---- | ---- |
+| 2019 | 27,209 | Analyst x12 | 24,296 |
+| 2020 | 37,268 | Analyst x9 | 29,716 |
+| 2021 | 46,213 | Analyst x4 | 32,903 |
+| 2022 | 58,129 | Analyst x3 | 36,956 |
+| 2023 | 70,986 | Analyst x3 | 40,298 |
+| 2024 | 81,470 | Est @ 14.77% | 41,299 |
+| 2025 | 90,560 | Est @ 11.16% | 40,992 |
+| 2026 | 98,374 | Est @ 8.63% | 39,762 |
+| 2027 | 105,122 | Est @ 6.86% | 37,940 |
+| 2028 | 111,030 | Est @ 5.62% | 35,783 |
 
-    ----------------------------------------------
-	Current discount (share price of $103.41): -2%
-	----------------------------------------------
-    
-    
-    **Estimate of Discount Rate**
-    The discount rate, or required rate of return, is estimated by calculating the Cost of Equity.
-    Discount rate = Cost of Equity = Risk Free Rate + (Levered Beta * Equity Risk Premium)
-    Discount rate = 8.42% = 2.11% + (0.8 * 7.89%)
-    
-    
-    **Estimate of Bottom Up Beta**
-    The Levered Beta is the Unlevered Beta adjusted for financial leverage. It is limited to 0.8 (lowest range for a stable firm).
-    Levered Beta = Unlevered beta (1 + (1- tax rate) (Debt/Equity))
-    0.569 = 0.536 (1 + (1- 30%) (8.75%))
-    Levered Beta used in calculation = 0.8
+    Present value of next 10 years cash flows: $359,949
+
+**Terminal Value**
+
+    Terminal Value = FCF2028 × (1 + g) ÷ (Discount Rate – g)
+    Terminal Value = $111,030 × (1 + 2.73%) ÷ (11.99% – 2.73%)
+    Terminal value based on the Perpetuity Method where growth (g) = 2.73%: 1,231,872
+
+    Present value of terminal value: $397,010
+
+**Equity Value**
+
+    Equity Value (Total value) = Present value of next 10 years cash flows + terminal value ($359,949 + $397,010)
+    Value per share = Total value / Shares Outstanding  ($756,960.14 / 488.96)
+
+    ∴ Value per share: $1,548
+
+**Discount**
+
+Discount = (share price of $1,670.43): -7.9%
+
+**Estimate of Discount Rate**
+The discount rate, or required rate of return, is estimated by calculating the Cost of Equity.
+Discount rate = Cost of Equity = Risk Free Rate + (Levered Beta * Equity Risk Premium)
+Discount rate = 11.99% = 2.73% + (1.55 * 5.96%)
+
+**Estimate of Bottom Up Beta**
+The Levered Beta is the Unlevered Beta adjusted for financial leverage. It is limited to 0.8 (lowest range for a stable firm).
+Levered Beta = Unlevered beta (1 + (1- tax rate) (Debt/Equity))
+1.55 = 1.49 (1 + (1- 30%) (5.6%))
+Levered Beta used in calculation = 1.55
 
 Data points used in 2-Stage Free Cash Flow Model
 
@@ -743,7 +744,7 @@ company is able to meet its debt obligations using purely its cash flow
 for the year from its operational activities.
 
 Debt held the company is compared to Operating Cash Flows. If Operating 
-Cash Flows are \> Total Debt the stock is scored one point.
+Cash Flows are \> 20% of Total Debt the stock is scored one point.
 
 ##### CHECK \#6: Are earnings greater than 5x the interest on debt (if company pays interest at all)?
 
@@ -767,11 +768,11 @@ The following data points are used in addition to the previous for this analysis
 | Levered Free Cash Flow annual growth rate | Linear regression over the past 3 years |
 | Cash & short-term investments | Last reported |
 
-##### CHECK #5: Does cash and short-term investments cover stable cash burn (negative free cash flow) for more than 3 years? 
-This check indicates whether the company’s cash and other liquid asset levels are high enough to cover its negative free cash flow over the next 3 years, should the rate remain stable. If coverage is sufficient, the stock is scored one point.
+##### CHECK #5: Does cash and short-term investments cover stable cash burn (negative free cash flow) for more than 1 year? 
+This check indicates whether the company’s cash and other liquid asset levels are high enough to cover its negative free cash flow over the next year, should the rate remain stable. If coverage is sufficient, the stock is scored one point.
 
-##### CHECK #6:  Does cash and short-term investments cover growing cash burn (negative free cash flow) for more than 3 years?
-This check indicates whether the company’s cash and other liquid asset levels are high enough to cover its negative free cash flow over the next 3 years, should rate grow or shrink at the same rate annually as it had in the past three years. If coverage is sufficient, the stock is scored one point.
+##### CHECK #6:  Does cash and short-term investments cover growing cash burn (negative free cash flow) for more than 1 year?
+This check indicates whether the company’s cash and other liquid asset levels are high enough to cover its negative free cash flow over the next year, should rate grow or shrink at the same rate annually as it had in the past three years. If coverage is sufficient, the stock is scored one point.
 
 
 ### Financial Institutions
