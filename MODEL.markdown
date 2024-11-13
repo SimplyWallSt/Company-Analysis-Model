@@ -205,7 +205,7 @@ If AFFO estimates is unavailable, we fall back to using FFO. However, if both ar
 
 The discount rate is calculated based on the following equation:
 
-    Discount rate = Cost of Equity = Risk Free Rate + (Levered Beta \* Equity Risk Premium)
+    Discount rate = Cost of Equity = Risk Free Rate + (Levered Beta * Equity Risk Premium)
 
 The risk-free rate is the 5-year average of the 10-year government bond rate. It is common for investors to simply use the current spot government bond rate, but we believe using the spot rate leads to highly volatile valuations. In our view these are not reflective of the company&#39;s true long-term value and lead to reactionary investment decisions that are not compatible with a long-term investment horizon.
 
